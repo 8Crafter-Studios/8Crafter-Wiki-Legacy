@@ -4,6 +4,7 @@ nav_order: 4
 description: The add-on's ban system.
 mentions:
     - Andexter8
+    - StormStqr
 ---
 
 ## How do I ban a player (who has joined the world before)?
