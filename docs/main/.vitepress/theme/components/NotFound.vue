@@ -7,7 +7,7 @@ import WikiImage from "./content/WikiImage.vue";
     <h1>Page Not Found</h1>
 
     <p>We couldn't find the page you were looking for.</p>
-    <p>Don't type <code>/spawnpoint</code> here!</p>
+    <p>Don't type <code>\spawn</code> here!</p>
 
     <WikiImage src="/assets/images/misc/dead_bush.png" alt="Dead Bush" />
   </article>
