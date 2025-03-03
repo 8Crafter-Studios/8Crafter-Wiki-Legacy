@@ -38,7 +38,18 @@ export function transformHead({ pageData, siteConfig }: TransformContext) {
     "docsearch:vitepress_frontmatter": JSON.stringify(frontmatter),
   };
 
-  const out: HeadConfig[] = [];
+  const out: HeadConfig[] = [
+    [
+      "script",
+      {},
+      `if(window.location.href.startsWith("https://wiki.8crafter.com/main/404?")){
+  const sourceURL = new URLSearchParams(window.location.search).get('404_source_url');
+  if(!!sourceURL){
+    window.history.replaceState({}, '404 | 8Crafter Wiki', sourceURL);
+  }
+}`
+    ]
+  ];
 
   Object.entries(data).forEach(([name, content]) => {
     out.push([
