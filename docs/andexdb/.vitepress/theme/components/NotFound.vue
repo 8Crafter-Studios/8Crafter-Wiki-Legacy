@@ -3,13 +3,13 @@ import WikiImage from "./content/WikiImage.vue";
 </script>
 
 <template>
-	<script>
-	const sourceURL = new URLSearchParams(window.location.search).get('404_source_url');
-	if(!!sourceURL){
-	    window.history.replaceState({}, '404 | 8Crafter\'s Debug Sticks Wiki', sourceURL);
-	}
-	</script>
   <article>
+		<script>
+			const sourceURL = new URLSearchParams(window.location.search).get('404_source_url');
+			if(!!sourceURL){
+			    window.history.replaceState({}, '404 | 8Crafter\'s Debug Sticks Wiki', sourceURL);
+			}
+		</script>
     <h1>Page Not Found</h1>
 
     <p>We couldn't find the page you were looking for.</p>
