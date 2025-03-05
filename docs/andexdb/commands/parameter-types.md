@@ -187,7 +187,7 @@ Examples of INVALID block patterns:
 
 ### Mask
 
-<template-IncompleteSection />
+<template-ExpandSection details="Add some examples."/>
 
 A block mask.
 
@@ -243,6 +243,8 @@ Features unique to block masks:
 A set of block states. Ex. `["infiniburn_bit"=false,"cardinal_direction"="north"]`{lang=mcfunction}
 
 ### x y z
+
+<template-MissingInformation detiails="the custom syntax types for the coordinates, such as with ! or *." />
 
 A set of coordinates, relative coordinates and caret notation are allowed.
 
@@ -301,4 +303,4 @@ This parameter type means that the value you type in for it is the exact text th
 
 ### (\<parameterType\>|\<parameterType\>)
 
-This parameter type means that it can actually be any of the parameter types separated by vertical lines | inside of the parentheses (). For example, if your parameter was `[value: (number|(string|JSONArray)[maxLength=2])[?=5]]`{lang=andexdbcmd} then for the parameter you could do a number, a string with a max length of 2, a JSONArray with a max length of 2, or nothing, and if you put nothing then it will just default to `5`.
+This parameter type means that it can actually be any of the parameter types separated by vertical lines `|` inside of the parentheses `()`. For example, if your parameter was `[value: (number|(string|JSONArray)[maxLength=2])[?=5]]`{lang=andexdbcmd} then for the parameter you could do a number, a string with a max length of 2, a JSONArray with a max length of 2, or nothing, and if you put nothing then it will just default to `5`.
