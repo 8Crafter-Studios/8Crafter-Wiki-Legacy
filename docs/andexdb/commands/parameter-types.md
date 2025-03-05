@@ -203,30 +203,30 @@ Features unique to block masks:
 -   Presets:
     -   You can specify these presets just like you would specify a regular block type. When you specify a preset, then it will match any of the block types that it includes.
     -   Here is the current list of valid block presets, and what block types they include:
-        -   preset:leaves: includes all block types that have "leaves" in the name.
-        -   preset:deforest: includes all block types that have "leaves" or "sapling" in the name, any block with the "log" or "plant" tags, short_grass, tall_grass, vine, dandelion, allium, brown_mushroom_block, red_mushroom_block, mushroom_stem, crimson_roots, warped_roots, and bee_nest. It is still a work in progress and will include more block types in the future.
-        -   preset:ores: includes all block types that have "ore" in the name, as well as ancient debris.
-        -   preset:ore_blocks: includes the following block types:
-            -   coal_block
-            -   copper_block
-            -   exposed_copper
-            -   weathered_copper
-            -   oxidized_copper
-            -   waxed_copper
-            -   waxed_exposed_copper
-            -   waxed_weathered_copper
-            -   waxed_oxidized_copper
-            -   iron_block
-            -   gold_block
-            -   emerald_block
-            -   diamond_block
-            -   netherite_block
-            -   redstone_block
-            -   lapis_block
-            -   raw_copper_block
-            -   raw_iron_block
-            -   raw_gold_block
-        -   preset:liquid: includes water, flowing_water, lava, and flowing_lava.
+        -   `preset:leaves`{lang=mccmd}: includes all block types that have "leaves" in the name.
+        -   `preset:deforest`{lang=mccmd}: includes all block types that have "leaves" or "sapling" in the name, any block with the "log" or "plant" tags, `short_grass`{lang=mccmd}, `tall_grass`{lang=mccmd}, `vine`{lang=mccmd}, `dandelion`{lang=mccmd}, `allium`{lang=mccmd}, `brown_mushroom_block`{lang=mccmd}, `red_mushroom_block`{lang=mccmd}, `mushroom_stem`{lang=mccmd}, `crimson_roots`{lang=mccmd}, `warped_roots`{lang=mccmd}, and `bee_nest`{lang=mccmd}. It is still a work in progress and will include more block types in the future.
+        -   `preset:ores`{lang=mccmd}: includes all block types that have "ore" in the name, as well as ancient debris.
+        -   `preset:ore_blocks`{lang=mccmd}: includes the following block types:
+            -   `coal_block`{lang=mccmd}
+            -   `copper_block`{lang=mccmd}
+            -   `exposed_copper`{lang=mccmd}
+            -   `weathered_copper`{lang=mccmd}
+            -   `oxidized_copper`{lang=mccmd}
+            -   `waxed_copper`{lang=mccmd}
+            -   `waxed_exposed_copper`{lang=mccmd}
+            -   `waxed_weathered_copper`{lang=mccmd}
+            -   `waxed_oxidized_copper`{lang=mccmd}
+            -   `iron_block`{lang=mccmd}
+            -   `gold_block`{lang=mccmd}
+            -   `emerald_block`{lang=mccmd}
+            -   `diamond_block`{lang=mccmd}
+            -   `netherite_block`{lang=mccmd}
+            -   `redstone_block`{lang=mccmd}
+            -   `lapis_block`{lang=mccmd}
+            -   `raw_copper_block`{lang=mccmd}
+            -   `raw_iron_block`{lang=mccmd}
+            -   `raw_gold_block`{lang=mccmd}
+        -   `preset:liquid`{lang=mccmd}: includes `water`{lang=mccmd}, `flowing_water`{lang=mccmd}, `lava`{lang=mccmd}, and `flowing_lava`{lang=mccmd}.
     -   Tags:
         -   Block masks allow you to filter blocks by block tags. To use a block tag, just put `tag:tagname`{lang=mccmd} as the block type. ex. `tag:plant`{lang=mccmd} or `tag:minecraft:is_hoe_item_destructable`{lang=mccmd}.
 
