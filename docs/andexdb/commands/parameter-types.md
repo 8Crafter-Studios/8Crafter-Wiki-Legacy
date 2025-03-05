@@ -244,7 +244,7 @@ A set of block states. Ex. `["infiniburn_bit"=false,"cardinal_direction"="north"
 
 ### x y z
 
-<template-MissingInformation detiails="the custom syntax types for the coordinates, such as with ! or *." />
+<template-IncompleteSection detiails="the custom syntax types for the coordinates, such as with ! or *." />
 
 A set of coordinates, relative coordinates and caret notation are allowed.
 
