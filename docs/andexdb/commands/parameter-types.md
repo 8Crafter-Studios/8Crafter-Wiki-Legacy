@@ -142,13 +142,93 @@ The same as itemId. A namespaced id of an item type, for example `andexdb:debug_
 
 ### BlockPattern
 
-<template-EmptySection />
-
 A block pattern.
+
+This parameter type is mainly used to fill areas with patterns.
+
+These patterns are specified by having multiple blocks separated by commas.
+
+Each of the block IDs can have namespaces but if they are vanilla blocks then the namespace is optional (ex. `stone` could be `minecraft:stone` or `stone`, but `andexrp:debug` can only be `andexrp:debug` not `debug`). The block IDs can also have quotes but these are also optional (ex. `stone` could be `minecraft:stone`, `stone`, `"minecraft:stone"`, or `"stone"`).
+
+Example: `diamond_block,iron_block`{lang=mccmd}.
+
+Adding `s:` to the start of the list causes the blocks to be placed in a predictable pattern (will be the same each time).
+
+Adding `r:` to the start of the list causes the blocks to be placed in a random pattern, this is useless as this is the default behavior, so it is unnecessary to add `r:` to the beginning of the block pattern.
+
+In this mode the blocks are placed in the order they are specified, if the weight of a block type is specified in this mode, it will be as if you had typed that block twice in the list, if you want the block type to appear in multiple places in the pattern, you can just specify it multiple times.
+
+Example: `s:diamond_block,iron_block`{lang=mccmd}.
+
+Also, adding a `%<int>` after each block name to set the ratio in which to spawn (defaults to 1), like `diamond_block%20,iron_block`{lang=mccmd} will spawn 20 diamond blocks for each iron block (iron block has a 1/21 = 4.8% weight).
+
+Lastly, adding block states (like you would in a normal command or in JSON syntax) after any block name or weight value will also work, like: `andesite_stairs%20["upside_down_bit"=true],granite_stairs%20{"upside_down_bit":true},stone,glass%36`{lang=mccmd}
+
+Examples:
+-   `diamond_block,iron_block`{lang=mccmd} - Random combination of diamond and iron blocks, each with an equal probability of spawning.
+-   `s:diamond_block,iron_block`{lang=mccmd} - Sequence that alternates between diamond and iron blocks every block.
+-   `diamond_block%20,iron_block`{lang=mccmd} - Random combination of diamond and iron blocks, with diamond blocks having a 20/21 (95.2% chance) of spawning, and iron blocks having a 1/21 (4.8% chance) of spawning.
+-   `andesite_stairs%20["upside_down_bit"=true],granite_stairs%20{"upside_down_bit":true},stone,glass%36`{lang=mccmd} - Random combination of upside down andesite stairs, upside down granite stairs, stone, and glass, with upside down andesite stairs having a 20/77 (26.0% chance) of spawning, upside down granite stairs having a 20/77 (26.0% chance) of spawning, stone having a 1/77 (1.3% chance) of spawning, and glass having a 36/77 (46.7% chance) of spawning.
+-   `stone,grass_block,ice%1,minecraft:end_gateway%10,andexrp:debug,"minecraft:iron_ore"%50,minecraft:diamond_block,"sandstone","minecraft:sand","packed_ice"%37,polished_blackstone_stairs["upside_down_bit"=false, "weirdo_direction"=4],minecraft:chest["cardinal_direction" = "north"],slime_block,oak_slab{"top_half_bit": true},minecraft:diorite_wall%76{"north_wall_bit": false, "south_wall_bit":true},glass`{lang=mccmd} - A very complicated block pattern.
+
+<br />
+
+Examples of INVALID block patterns:
+-    `diamond_block, iron_block`{lang=mccmd} - You cannot have spaces in a block pattern unless they are inside of the brackets for block states, or are inside of the block's ID if it is in quotes.
+-    `diamond_block iron_block`{lang=mccmd} - The block IDs must be separated by commas, not spaces.
+-    `diamond_block,iron_bl ock`{lang=mccmd} - You must have quotes around the block ID to have spaces in it (ex. `diamond_block,"iron_bl ock"`{lang=mccmd}), but even then, the block ID for the vanilla iron block does not have spaces in it so the iron block in the case would be ignored.
+-   `andesite_stairs%20["upside_down_bit"=true`{lang=mccmd} - The right square bracket is missing.
+-   `andesite_stairs%20{"upside_down_bit"=true}`{lang=mccmd} - If you use curly brackets for the block states, then you must put them in JSON object format (ex. `andesite_stairs%20{"upside_down_bit":true}`{lang=mccmd}).
+-   `andesite_stairs%20["upside_down_bit":true]`{lang=mccmd} - If you use square brackets for the block states, then you must put them in Minecraft block states format (ex. `andesite_stairs%20["upside_down_bit"=true]`{lang=mccmd}).
+-   `andesite_stairs["upside_down_bit"=true]%20`{lang=mccmd} - The weight must be specified BEFORE the block states not after.
+-   `%20andesite_stairs["upside_down_bit"=true]`{lang=mccmd} - The weight must be specified AFTER the block ID not before.
+-   `["upside_down_bit"=true]andesite_stairs%20`{lang=mccmd} - The block states must be specified AFTER the block ID and weight not before.
+-   `andesite_stairs%20[upside_down_bit=true]`{lang=mccmd} - The property names of the block states must be quoted.
 
 ### Mask
 
-<template-EmptySection />
+<template-IncompleteSection />
+
+A block mask.
+
+These are very similar to block patterns, the main difference is that block masks support other kinds of filters, and that block masks do not support weights.
+
+Another major difference is that instead of being able to prefix the block mask with `s:` or `r:`, like with block patterns, instead you can prefix the block mask with `i:` or `e:`, to switch between include and exclude mode.
+
+Include mode will cause the block mask to only match blocks that match the mask. For example, `i:air,stone`{lang=mccmd} would only match air and stone blocks. This `i:` prefix is useless in most situations, as include mode is the default mode, so adding it does nothing. The only time the `i:` prefix does anything is if the command that this block mask is being used in defaults to using exclude mode.
+
+Exclude mode basically just inverts the selection, so it will match all blocks that don't match the mask. For example, `e:air,stone`{lang=mccmd} would only match blocks that are NOT air or stone blocks.
+
+Features unique to block masks:
+-   Presets:
+    -   You can specify these presets just like you would specify a regular block type. When you specify a preset, then it will match any of the block types that it includes.
+    -   Here is the current list of valid block presets, and what block types they include:
+        -   preset:leaves: includes all block types that have "leaves" in the name.
+        -   preset:deforest: includes all block types that have "leaves" or "sapling" in the name, any block with the "log" or "plant" tags, short_grass, tall_grass, vine, dandelion, allium, brown_mushroom_block, red_mushroom_block, mushroom_stem, crimson_roots, warped_roots, and bee_nest. It is still a work in progress and will include more block types in the future.
+        -   preset:ores: includes all block types that have "ore" in the name, as well as ancient debris.
+        -   preset:ore_blocks: includes the following block types:
+            -   coal_block
+            -   copper_block
+            -   exposed_copper
+            -   weathered_copper
+            -   oxidized_copper
+            -   waxed_copper
+            -   waxed_exposed_copper
+            -   waxed_weathered_copper
+            -   waxed_oxidized_copper
+            -   iron_block
+            -   gold_block
+            -   emerald_block
+            -   diamond_block
+            -   netherite_block
+            -   redstone_block
+            -   lapis_block
+            -   raw_copper_block
+            -   raw_iron_block
+            -   raw_gold_block
+        -   preset:liquid: includes water, flowing_water, lava, and flowing_lava.
+    -   Tags:
+        -   Block masks allow you to filter blocks by block tags. To use a block tag, just put `tag:tagname`{lang=mccmd} as the block type. ex. `tag:plant`{lang=mccmd} or `tag:minecraft:is_hoe_item_destructable`{lang=mccmd}.
 
 ### SingleBlockMask
 
