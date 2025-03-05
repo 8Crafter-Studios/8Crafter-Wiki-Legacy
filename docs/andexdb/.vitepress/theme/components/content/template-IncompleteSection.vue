@@ -4,5 +4,5 @@ const props = defineProps<{
 }>();
 </script>
 <template>
-  <template_MissingInformation section="section" :details="props.details" />
+  <template-MissingInformation section="section" :details="props.details" />
 </template>
