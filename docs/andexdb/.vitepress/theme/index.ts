@@ -22,6 +22,7 @@ import template_Deprecated from "./components/content/template-Deprecated.vue";
 import template_EmptySection from "./components/content/template-EmptySection.vue";
 import template_ExpandSection from "./components/content/template-ExpandSection.vue";
 import template_Experimental from "./components/content/template-Experimental.vue";
+import template_ImagePlaceholder from "./components/content/template-ImagePlaceholder.vue";
 import template_IncompleteSection from "./components/content/template-IncompleteSection.vue";
 import template_InDevelopment from "./components/content/template-InDevelopment.vue";
 import template_MissingInformation from "./components/content/template-MissingInformation.vue";
@@ -55,6 +56,7 @@ const contentComponents: Record<string, Component> = {
   "template-EmptySection": template_EmptySection,
   "template-ExpandSection": template_ExpandSection,
   "template-Experimental": template_Experimental,
+  "template-ImagePlaceholder": template_ImagePlaceholder,
   "template-IncompleteSection": template_IncompleteSection,
   "template-InDevelopment": template_InDevelopment,
   "template-MissingInformation": template_MissingInformation,
