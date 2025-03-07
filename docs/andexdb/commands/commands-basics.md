@@ -5,7 +5,7 @@ description: The basics of the commands in this add-on.
 nav_order: 1
 ---
 
-For all built-in chat commands you can just type `\help` cmd followed by the name of the command and it will display what the command does, the syntax of it, and what any flag parameters on the command do. For example if you wanted to see how to use the `\giveb` command you would do `\help cmd giveb` and for the `\\replace` command you would do `\help cmd \\replace`.
+For all built-in chat commands you can just type [`\help cmd`{lang=acmd}](../commands-list/-help) followed by the name of the command and it will display what the command does, the syntax of it, and what any flag parameters on the command do. For example if you wanted to see how to use the [`\giveb`{lang=acmd}](../commands-list/-giveb) command you would do `\help cmd giveb`{lang=acmd} and for the [`\\replace`{lang=acmd}](../commands-list/--replace) command you would do `\help cmd \\replace`{lang=acmd}.
 
 ## How to give players the permissions to use commands.
 
@@ -21,7 +21,7 @@ The tags required to use each chat command can be configured in the Manage Comma
 
 Most chat commands default to requiring the `canUseChatCommands` tag.
 
-Some commands like `\home`, `\help`, and `\tpa` default to not requiring any tags to use them, so anyone can use them. However, if you don't want people using those commands you can either [change the required tags for the command](/andexdb/commands/changing-command-required-tags) or [disable the command](/andexdb/commands/disabling-commands).
+Some commands like [`\home`{lang=acmd}](../commands-list/-home), [`\help`{lang=acmd}](../commands-list/-help), and [`\tpa`{lang=acmd}](../commands-list/-tpa) default to not requiring any tags to use them, so anyone can use them. However, if you don't want people using those commands you can either [change the required tags for the command](/andexdb/commands/changing-command-required-tags) or [disable the command](/andexdb/commands/disabling-commands).
 
 You can also disable individual commands completely in the Manage Commands section of the main menu.
 
