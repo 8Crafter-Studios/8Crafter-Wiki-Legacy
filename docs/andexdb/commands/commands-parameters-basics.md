@@ -5,7 +5,7 @@ description: The basics of the command parameters in this add-on.
 nav_order: 2
 ---
 
-Some examples of parameters in a command would be `[-tfsa]`, `<player: target>`, and `[name: string]` in the following command syntax:
+Some examples of parameters in a command would be `[-tfsa]`{lang=acmd}, `<player: target>`{lang=acmd}, and `[name: string]`{lang=acmd} in the following command syntax:
 
 `\examplecommand [-tfsa] <player: target> [name: string]`{lang=andexdbcmd}
 
@@ -17,7 +17,7 @@ In the syntax of a command there are multiple ways a parameter can be written ou
 
 Optional parameters are enclosed in square brackets like this: `[name: string]`
 
-Note: Parameters written as a dash followed by a string of characters enclosed in square brackets (ex. `[-tfsa]` or `[-z]`) is not considered an optional parameter, this is a [flags parameter](#flags-parameters).
+Note: Parameters written as a dash followed by a string of characters enclosed in square brackets (ex. `[-tfsa]`{lang=acmd} or `[-z]`{lang=acmd}) is not considered an optional parameter, this is a [flags parameter](#flags-parameters).
 
 optional parameters are optional, you can either include them or not include them, however if you do not include them then any parameters after them cannot be included either, so in the following command:
 
@@ -200,4 +200,3 @@ Whether or not this target parameter only allows targeting players.
 ## Next
 
 <Button link="./parameter-types">Next: Parameter Types</Button>
-```
