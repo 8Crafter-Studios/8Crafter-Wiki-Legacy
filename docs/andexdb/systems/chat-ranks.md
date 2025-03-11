@@ -15,7 +15,7 @@ mentions:
 <Spoiler title="Setting up a default rank">
 
 :::note
-Note: As of v1.33.0, there is a preset value for the default rank, so if you want your default rank to be something like <span style="color: #55FFFF; background-color: #5e5e5e">Member</span>, then you don't need to change any settings.
+Note: As of v1.33.0, there is a preset value for the default rank, so if you want your default rank to be something like <code style="color: #55FFFF; background-color: #5e5e5e">Member</code>, then you don't need to change any settings.
 :::
 
 <template-ExpandSection />
@@ -24,7 +24,7 @@ Note: As of v1.33.0, there is a preset value for the default rank, so if you wan
 
 With this add-on you can set a rank that it will show for players who don't have a rank.
 
-For example you can make it so that if a player does not have a rank, then their rank will be <span style="color: #55FFFF; background-color: #5e5e5e">Member</span>.
+For example you can make it so that if a player does not have a rank, then their rank will be <code style="color: #55FFFF; background-color: #5e5e5e">Member</code>.
 
 <Spoiler title="v1.33.0+">
 
@@ -56,8 +56,6 @@ You can also just do `\rank @s add §cAdmin§r`{lang=mccmd}.
 To remove the rank, just remove the tag.
 
 ## Changing Players Names in the Chat
-
-<template-EmptySection />
 
 To change a player's name in the chat, give them a tag in this format: `sudo:Chat Name Here`.
 
@@ -106,8 +104,6 @@ To make message timestamps visible to everyone in the chat, all you have to do i
 </Spoiler>
 
 ### Making Message Timestamps Only Visible to You
-
-<template-EmptySection />
 
 To make the message timestamps only visible to you in the chat, all you have to do is give yourself the `chatDisplayTimeStamps` tag.
 
