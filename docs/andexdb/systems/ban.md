@@ -7,6 +7,8 @@ mentions:
     - StormStqr
 ---
 
+<template-Update details="Update the page to include information about how to access the menu in the new v1.33.0 update." />
+
 ## How do I ban a player (who has joined the world before)?
 
 1.  Open the [Main Menu](../main-menu/main-menu) (use the [`\mainmenu`{lang=acmd}](../commands-list/-mainmenu.md) command or the [Main Menu stick](../general/items#Main-Menu)).
