@@ -6,6 +6,8 @@ mentions:
     - Andexter8
 ---
 
+<template-Update details="Update the page to include information about how to access the menu in the new v1.33.0 update." />
+
 Any player can use the TP request system, regardless of permissions. The TP request system is disabled by default, so make sure to turn it on in settings.
 
 ## How to enable the TPA system
