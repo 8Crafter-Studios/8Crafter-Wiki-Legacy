@@ -14,8 +14,8 @@ mentions:
 
 <Spoiler title="Setting up a default rank">
 
-:::note
-Note: As of v1.33.0, there is a preset value for the default rank, so if you want your default rank to be something like <code style="color: #55FFFF; background-color: #5e5e5e">Member</code>, then you don't need to change any settings.
+:::tip
+Note: As of v1.33.0, there is a preset value for the default rank, so if you want your default rank to be <code style="color: #55FFFF; background-color: #5e5e5e">Member</code>, then you don't need to change any settings.
 :::
 
 <template-ExpandSection />

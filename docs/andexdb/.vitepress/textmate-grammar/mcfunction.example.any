@@ -1,0 +1,5 @@
+\rank @s add §cAdmin§r
+say hi
+/say hi
+\exe hi
+\\exe hi

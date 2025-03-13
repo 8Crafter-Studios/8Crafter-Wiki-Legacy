@@ -1,0 +1,14 @@
+\rank @s add §cAdmin§r
+exe hi
+/exe hi
+\exe hi
+\\exe hi
+\\replace s:stone%20["a"=1,"c"=false],ice,gravel%10 i:iron_block["n"=1],a
+\\replace s:stone%20["a"=1,"c"=false],ice,gravel%10
+\\replace s:stone
+\\replace -oa minecraft:stone
+\\replace "minecraft:stone"
+\\replace "minecraft:stone","minecraft:a"
+\\replace s:"minecraft:stone"
+\\replace minecraft:stone,minecraft:ice
+/setblock ~~~ a:sdas
