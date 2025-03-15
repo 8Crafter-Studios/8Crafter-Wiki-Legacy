@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://wiki.8crafter.com/andexdb/index.html</loc>
-    <lastmod>2025-03-15</lastmod>
-  </url>
-  <url>
     <loc>https://wiki.8crafter.com/main/page-link-list.html</loc>
     <lastmod>2025-03-15</lastmod>
   </url>
   <url>
-    <loc>https://wiki.8crafter.com/andexdb/page-link-list.html</loc>
+    <loc>https://wiki.8crafter.com/andexdb/index.html</loc>
     <lastmod>2025-03-15</lastmod>
   </url>
   <url>
-    <loc>https://wiki.8crafter.com/main/</loc>
+    <loc>https://wiki.8crafter.com/andexdb/page-link-list.html</loc>
     <lastmod>2025-03-15</lastmod>
   </url>
   <url>
@@ -22,6 +18,102 @@
   </url>
   <url>
     <loc>https://wiki.8crafter.com/main/contribute</loc>
+    <lastmod>2025-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/main/add-ons/add-ons</loc>
+    <lastmod>2025-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/main/add-ons/debug-sticks</loc>
+    <lastmod>2025-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/main/add-ons/entity-scale</loc>
+    <lastmod>2025-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/main/add-ons/online-player-hider</loc>
+    <lastmod>2025-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/main/add-ons/pause-menu-button-remover</loc>
+    <lastmod>2025-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/main/add-ons/world-height-limit-modifier</loc>
+    <lastmod>2025-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/main/apple_shortcuts/list</loc>
+    <lastmod>2025-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/main/nodejs_programs/list</loc>
+    <lastmod>2025-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/main/regedit_files/list</loc>
+    <lastmod>2025-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/main/meta/addon-performance</loc>
+    <lastmod>2025-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/main/meta/style-guide</loc>
+    <lastmod>2025-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/main/meta/useful-links</loc>
+    <lastmod>2025-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/main/contribute-how-to</loc>
+    <lastmod>2025-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/main/contribute-style</loc>
+    <lastmod>2025-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/main/index</loc>
+    <lastmod>2025-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/main/page-link-list</loc>
+    <lastmod>2025-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/main/privacy</loc>
+    <lastmod>2025-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/main/test</loc>
+    <lastmod>2025-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/main/add-ons/index</loc>
+    <lastmod>2025-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/main/apple_shortcuts/index</loc>
+    <lastmod>2025-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/main/meta/index</loc>
+    <lastmod>2025-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/main/nodejs_programs/index</loc>
+    <lastmod>2025-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/main/regedit_files/index</loc>
+    <lastmod>2025-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/main/</loc>
     <lastmod>2025-03-15</lastmod>
   </url>
   <url>
@@ -509,98 +601,6 @@
     <lastmod>2025-03-15</lastmod>
   </url>
   <url>
-    <loc>https://wiki.8crafter.com/main/privacy</loc>
-    <lastmod>2025-03-15</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/main/add-ons/add-ons</loc>
-    <lastmod>2025-03-15</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/main/add-ons/debug-sticks</loc>
-    <lastmod>2025-03-15</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/main/add-ons/entity-scale</loc>
-    <lastmod>2025-03-15</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/main/add-ons/online-player-hider</loc>
-    <lastmod>2025-03-15</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/main/add-ons/pause-menu-button-remover</loc>
-    <lastmod>2025-03-15</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/main/add-ons/world-height-limit-modifier</loc>
-    <lastmod>2025-03-15</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/main/apple_shortcuts/list</loc>
-    <lastmod>2025-03-15</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/main/nodejs_programs/list</loc>
-    <lastmod>2025-03-15</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/main/regedit_files/list</loc>
-    <lastmod>2025-03-15</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/main/meta/addon-performance</loc>
-    <lastmod>2025-03-15</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/main/meta/style-guide</loc>
-    <lastmod>2025-03-15</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/main/meta/useful-links</loc>
-    <lastmod>2025-03-15</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/main/contribute-how-to</loc>
-    <lastmod>2025-03-15</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/main/contribute-style</loc>
-    <lastmod>2025-03-15</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/main/index</loc>
-    <lastmod>2025-03-15</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/main/page-link-list</loc>
-    <lastmod>2025-03-15</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/main/test</loc>
-    <lastmod>2025-03-15</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/main/add-ons/index</loc>
-    <lastmod>2025-03-15</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/main/apple_shortcuts/index</loc>
-    <lastmod>2025-03-15</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/main/meta/index</loc>
-    <lastmod>2025-03-15</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/main/nodejs_programs/index</loc>
-    <lastmod>2025-03-15</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/main/regedit_files/index</loc>
-    <lastmod>2025-03-15</lastmod>
-  </url>
-  <url>
     <loc>https://wiki.8crafter.com/andexdb/index</loc>
     <lastmod>2025-03-15</lastmod>
   </url>
@@ -701,6 +701,22 @@
     <lastmod>2025-03-15</lastmod>
   </url>
   <url>
+    <loc>https://wiki.8crafter.com/andexdb/</loc>
+    <lastmod>2025-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/main/contribute-style.html</loc>
+    <lastmod>2025-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/main/contribute.html</loc>
+    <lastmod>2025-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/main/meta/style-guide.html</loc>
+    <lastmod>2025-03-15</lastmod>
+  </url>
+  <url>
     <loc>https://wiki.8crafter.com/andexdb/commands-list/--protectarea.html</loc>
     <lastmod>2025-03-15</lastmod>
   </url>
@@ -750,22 +766,6 @@
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/settings/general.html</loc>
-    <lastmod>2025-03-15</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/andexdb/</loc>
-    <lastmod>2025-03-15</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/main/contribute-style.html</loc>
-    <lastmod>2025-03-15</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/main/contribute.html</loc>
-    <lastmod>2025-03-15</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/main/meta/style-guide.html</loc>
     <lastmod>2025-03-15</lastmod>
   </url>
 </urlset>
