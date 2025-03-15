@@ -9,8 +9,6 @@ mentions:
     - stormstqr
 ---
 
-<>
-
 <CommandDetailsTable
     name="\bluemodsversion"
     :aliases="[
