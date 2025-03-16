@@ -19,7 +19,7 @@ mentions:
     :requiredTags="[
         'canUseChatCommands'
     ]"
-    ultraSecurityModeSecurityLevel="admin
+    ultraSecurityModeSecurityLevel="admin"
     version="0.17.9-alpha.33"
     :undoSupported="-1"
     :functional="false"
