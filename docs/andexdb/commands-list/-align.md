@@ -21,7 +21,7 @@ Centers you on the x and z axis on the block you are currently at.
     ]"
     ultraSecurityModeSecurityLevel="admin"
     version="1.0.0"
-    :undoSupported="-2"
+    :undoSupported="-1"
     :functional="true"
     :deprecated="false"
 />

@@ -9,7 +9,7 @@ mentions:
     - stormstqr
 ---
 
-<template-EmptySection />
+<template-Stub />
 
 <CommandDetailsTable
     name="\attribute"
