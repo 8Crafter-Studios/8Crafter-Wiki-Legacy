@@ -509,7 +509,7 @@ The names of the sub-commands of the `\help`{lang=acmd} command are no longer ca
             </th>
             <td>
 
-The `\help JаvaScriptfunctions`{lang=andexdbcmd} sub-command now has the module names color coded in aqua.
+The `\help JavaScriptfunctions`{lang=andexdbcmd} sub-command now has the module names color coded in aqua.
 
 </td>
         </tr>
@@ -656,7 +656,7 @@ If a command is marked as hidden in the commands_list file, it will now not show
             </th>
             <td>
 
-Fixed an issue where when you used the `\help cmd`{lang=acmd} sub-command or one of its variants, to get info about a command that has one or more aliases, then there was a missing space between the command name and "(also …)".
+Fixed an issue where when you used the `\help cmd`{lang=acmd} sub-command or one of its variants, to get info about a command that has one or more aliases, then there was a missing space between the command name and "(also ...)".
 
 </td>
         </tr>
