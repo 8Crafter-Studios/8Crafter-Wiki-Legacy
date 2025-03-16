@@ -32,6 +32,24 @@ Manages blocks.
 
 <indent></indent>
 
+`\block facing get color ...`{lang=andexdbcmd}
+
+-   `... <colorSpace: rgba|rgb> <unit: hex|frac|dec|decr>`{lang=andexdbcmd}
+
+-   `... <colorSpace: hsl|hsluv|(hsv|hsb)|hsi|hpluv|AdobeRGB|CIELuv|CIExyY>`{lang=andexdbcmd}
+
+`\block facing get filllevel`{lang=andexdbcmd}
+
+<indent></indent>
+
+`\block facing set color ...`{lang=andexdbcmd}
+
+<indent></indent>
+
+`\block facing set filllevel <fillLevel: int[min=0,max=6]>`{lang=andexdbcmd}
+
+<indent></indent>
+
 ## Result
 
 <template-EmptySection />
