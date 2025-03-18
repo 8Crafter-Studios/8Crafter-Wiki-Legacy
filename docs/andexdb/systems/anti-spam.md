@@ -10,7 +10,7 @@ mentions:
 
 ## How to use the anti-spam system
 
-1.  Open the [Main Menu](../main-menu/main-menu) (use the [`\mainmenu`{lang=acmd}](../commands-list/-mainmenu.md) command or the [Main Menu stick](../general/items#Main-Menu)).
+1.  Open the [Main Menu](../main-menu/main-menu) (use the [`\mainmenu`{lang=acmd}](../commands-list/-mainmenu.md) command or the [Main Menu stick](../items/main-menu)).
 2.  Scroll down and click "Moderation".
 
     ![Main Menu - Hovering Over Moderation Button](/assets/images/systems/main_menu-hovering_over_moderation_button.png)

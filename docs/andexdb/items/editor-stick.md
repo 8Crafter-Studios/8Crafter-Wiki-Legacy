@@ -2,11 +2,23 @@
 title: Editor Stick
 nav_order: 1
 description: The editor stick item.
+show_outline: false
+category: Debug Sticks
 mentions:
     - Andexter8
 ---
 
 <template-Stub />
+
+<ItemDetailsTable
+    name="Editor Stick"
+    image="https://minecraft.wiki/images/Debug_Stick.gif?c7249"
+    altText="Debug Stick.gif"
+    minetip="&dEditor Stick"
+    rarity="Epic"
+    renewable="No"
+    stackable="Yes (64)"
+/>
 
 <!-- <template-Update details="a" />
 <template-EmptySection />

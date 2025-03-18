@@ -8,7 +8,8 @@
       {
         "ignore": [
           "-webkit-text-size-adjust",
-          "scrollbar-color"
+          "scrollbar-color",
+          "image-rendering: crisp-edges"
         ]
       }
     ]

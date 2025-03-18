@@ -1,0 +1,117 @@
+.invslot {
+  box-sizing: unset;
+  position: relative;
+  display: inline-block;
+  background: #8b8b8b no-repeat center center / 32px 32px;
+  border: 2px solid;
+  border-color: #373737 #fff #fff #373737;
+  width: 32px;
+  height: 32px;
+  font-size: 16px;
+  line-height: 1;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+.invslot::before,
+.invslot::after {
+  content: "";
+  position: absolute;
+  background-color: #8b8b8b;
+  height: 2px;
+  width: 2px;
+  pointer-events: none;
+}
+
+.invslot::before {
+  bottom: -2px;
+  left: -2px;
+}
+
+.invslot::after {
+  top: -2px;
+  right: -2px;
+}
+
+.invslot-large {
+  padding: 8px;
+}
+
+.invslot-item,
+.invslot-item a:first-child {
+  box-sizing: unset;
+  position: relative;
+  display: block;
+  margin: -2px;
+  padding: 2px;
+  width: 32px;
+  height: 32px;
+}
+
+.invslot-item-image a.new:first-child {
+  background: url(/andexdb/assets/images/ui/Grid_Unknown.png) no-repeat content-box;
+  width: 32px;
+  height: 32px;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+.invslot-stacksize {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-family: Minecraft, sans-serif !important;
+  font-weight: normal !important;
+  color: #fff !important;
+  text-shadow: 2px 2px 0 #3f3f3f;
+  filter: dropshadow(color=#3F3F3F, offx=2, offy=2);
+  z-index: 2;
+}
+
+.invslot-plain {
+  background-color: transparent;
+  border: 0;
+}
+
+.invslot-plain::before,
+.invslot-plain::after {
+  content: none;
+}
+
+.invslot-plain > .invslot-item,
+.invslot-plain > .invslot-item a:first-child {
+  margin: 0;
+  padding: 0;
+}
+
+.invslot-default-head {
+  background-image: url(/andexdb/assets/images/ui/Grid_layout_Head_Empty.png);
+}
+
+.invslot-default-chest {
+  background-image: url(/andexdb/assets/images/ui/Grid_layout_Chest_Empty.png);
+}
+
+.invslot-default-legs {
+  background-image: url(/andexdb/assets/images/ui/Grid_layout_Legs_Empty.png);
+}
+
+.invslot-default-feet {
+  background-image: url(/andexdb/assets/images/ui/Grid_layout_Feet_Empty.png);
+}
+
+.invslot-default-offhand {
+  background-image: url(/andexdb/assets/images/ui/Grid_layout_Offhand_Empty.png);
+}
+
+.invslot-default-smithing {
+  background-image: url(/andexdb/assets/images/ui/Grid_layout_Smithing_Empty.png);
+}
+
+.invslot-default-brewing {
+  background-image: url(/andexdb/assets/images/ui/Grid_layout_Brewing_Empty.png);
+}
+
+.invslot-default-brewing-fuel {
+  background-image: url(/andexdb/assets/images/ui/Grid_layout_Brewing_Fuel_Empty.png);
+}

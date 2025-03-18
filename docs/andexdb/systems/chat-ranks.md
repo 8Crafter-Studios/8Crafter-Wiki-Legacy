@@ -34,7 +34,7 @@ For example you can make it so that if a player does not have a rank, then their
 
 <Spoiler title="Versions 1.32.1 and below">
 
-1. Open the [Main Menu](../main-menu/main-menu) (use the [`\mainmenu`{lang=acmd}](../commands-list/-mainmenu.md) command or the [Main Menu stick](../general/items#Main-Menu)).
+1. Open the [Main Menu](../main-menu/main-menu) (use the [`\mainmenu`{lang=acmd}](../commands-list/-mainmenu.md) command or the [Main Menu stick](../items/main-menu)).
 2. Click on [Settings](../settings/settings).
 3. Click on [Chat Ranks](../settings/chat-ranks)
 4. Scroll down until you find the option labeled ["Default Rank Template String For Players With No Rank"](../settings/chat-ranks#default-rank-template-string-for-players-with-no-rank).
@@ -83,7 +83,7 @@ To make message timestamps visible to everyone in the chat, all you have to do i
 
 <template-MoreImages section="section" />
 
-1.  Open the [Main Menu](../main-menu/main-menu) (use the [`\mainmenu`{lang=acmd}](../commands-list/-mainmenu.md) command or the [Main Menu stick](../general/items#Main-Menu)).
+1.  Open the [Main Menu](../main-menu/main-menu) (use the [`\mainmenu`{lang=acmd}](../commands-list/-mainmenu.md) command or the [Main Menu stick](../items/main-menu)).
 2.  Click on "Settings".
 3.  Click on "Chat & Name Tags Settings".
 4.  Click on "Chat Settings".
@@ -96,7 +96,7 @@ To make message timestamps visible to everyone in the chat, all you have to do i
 
 <template-MoreImages section="section" />
 
-1.  Open the [Main Menu](../main-menu/main-menu) (use the [`\mainmenu`{lang=acmd}](../commands-list/-mainmenu.md) command or the [Main Menu stick](../general/items#Main-Menu)).
+1.  Open the [Main Menu](../main-menu/main-menu) (use the [`\mainmenu`{lang=acmd}](../commands-list/-mainmenu.md) command or the [Main Menu stick](../items/main-menu)).
 2.  Scroll down and click "Settings".
 3.  Click on "Chat Ranks Settings".
 4.  Scroll down until you find the toggle named "Show Message Timestamps In Chat", and enable it.

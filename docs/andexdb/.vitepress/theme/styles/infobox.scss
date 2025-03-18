@@ -1,0 +1,187 @@
+.notaninfobox {
+  position: relative;
+  clear: right;
+  margin: 0 0 1em 1em;
+  width: 300px;
+  font-size: 90%;
+  background: #fff;
+  float: right;
+  border: 1px solid #ccc;
+  padding: 2px;
+  overflow: auto;
+}
+
+.mw-content-rtl .notaninfobox {
+  clear: left;
+  float: left;
+  margin: 0 1em 1em 0;
+}
+
+@media all and (max-width: 511px) {
+  .notaninfobox {
+    float: none;
+    margin-left: 0;
+    width: auto;
+  }
+
+  .mw-content-rtl .notaninfobox {
+    float: none;
+    margin-right: 0;
+  }
+}
+
+@media all and (max-width: 337px) {
+  .notaninfobox {
+    margin-left: -16px;
+    margin-right: -16px;
+    border-left: none;
+    border-right: none;
+  }
+}
+
+.notaninfobox > .infobox-title {
+  font-weight: bold;
+  text-align: center;
+  font-size: 120%;
+  border: none;
+}
+
+.notaninfobox .infobox-rows .infobox-header {
+  text-align: center;
+  font-size: 100%;
+}
+
+.notaninfobox th + td > dl > dd,
+.notaninfobox th + td > ul {
+  list-style: none;
+  margin-left: unset;
+}
+
+.infobox-imagearea {
+  text-align: center;
+  padding: 4px;
+}
+
+.infobox-imagearea > div:not(:first-child) {
+  padding-top: 1em;
+}
+
+.infobox-imagearea img {
+  max-width: 100%;
+  height: auto;
+}
+
+.mw-body-content .infobox-imagearea .animated {
+  display: inline-flex;
+  align-items: center;
+}
+
+.infobox-imagearea li.gallerybox div.thumb {
+  background: none;
+  border: none;
+  margin: 0;
+}
+
+.infobox-imagearea ul.gallery,
+.infobox-imagearea li.gallerybox,
+.infobox-imagearea li.gallerybox div.thumb > div {
+  margin: 0 !important;
+}
+
+.infobox-imagearea li.gallerybox div.gallerytext {
+  font-weight: bold;
+  font-size: 100%;
+  padding: 0;
+}
+
+.infobox-imagearea .tabber .tabbertab,
+.infobox-imagearea ul.tabbernav li a,
+.infobox-imagearea ul.tabbernav li.tabberactive a {
+  background: none;
+  border: none;
+}
+
+.infobox-imagearea ul.tabbernav {
+  font: inherit;
+  font-size: 100%;
+}
+
+.infobox-imagearea ul.tabbernav li a:hover,
+.infobox-imagearea ul.tabbernav li.tabberactive a:hover {
+  color: #000;
+}
+
+:where(body.wgl-theme-dark) .infobox-imagearea ul.tabbernav li a:hover,
+:where(body.wgl-theme-dark) .infobox-imagearea ul.tabbernav li.tabberactive a:hover {
+  color: #fff;
+}
+
+.infobox-imagearea ul.tabbernav > li {
+  margin-bottom: 5px;
+  padding: 0;
+}
+
+.infobox-imagearea ul.tabbernav > li > a {
+  color: #595959;
+  padding-bottom: 1px;
+  display: block;
+}
+
+:where(body.wgl-theme-dark) .infobox-imagearea ul.tabbernav > li > a {
+  color: #a9a9a9;
+}
+
+.infobox-imagearea ul.tabbernav > li > a::before {
+  display: block;
+  content: attr(alt);
+  font-weight: bold;
+  height: 0;
+  color: transparent;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.infobox-imagearea ul.tabbernav > li.tabberactive {
+  border: none;
+}
+
+.infobox-imagearea ul.tabbernav > li.tabberactive > a {
+  font-weight: bold;
+  border-bottom: 2px solid var(--infobox-header-background-color);
+  color: var(--content-text-color);
+}
+
+.infobox-imagecaption {
+  overflow: hidden;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+
+.notaninfobox .infobox-rows {
+  display: table;
+  margin: 0 !important;
+  width: 100% !important;
+  border-collapse: separate;
+  border-spacing: 1px;
+}
+
+.infobox-rows > tbody > tr > th {
+  text-align: left;
+  white-space: nowrap;
+}
+
+.mw-body-content .infobox-rows p {
+  margin: 0;
+}
+
+.infobox-rows dl + dl {
+  margin-top: -0.4em;
+}
+
+.infobox-rows dl:last-child {
+  margin-bottom: 0.2em;
+}
+
+.infobox-footer {
+  text-align: center;
+}

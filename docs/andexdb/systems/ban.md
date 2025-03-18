@@ -11,7 +11,7 @@ mentions:
 
 ## How do I ban a player (who has joined the world before)?
 
-1.  Open the [Main Menu](../main-menu/main-menu) (use the [`\mainmenu`{lang=acmd}](../commands-list/-mainmenu.md) command or the [Main Menu stick](../general/items#Main-Menu)).
+1.  Open the [Main Menu](../main-menu/main-menu) (use the [`\mainmenu`{lang=acmd}](../commands-list/-mainmenu.md) command or the [Main Menu stick](../items/main-menu)).
 2.  Scroll down and click "Manage Players".
 
     ![Main Menu - Hovering Over Manage Players Button](/assets/images/systems/ban/main_menu-hovering_over_manage_players_button.png)
@@ -34,7 +34,7 @@ mentions:
 
 ## How do I ban a player who has never joined the world?
 
-1.  Open the [Main Menu](../main-menu/main-menu) (use the [`\mainmenu`{lang=acmd}](../commands-list/-mainmenu.md) command or the [Main Menu stick](../general/items#Main-Menu)).
+1.  Open the [Main Menu](../main-menu/main-menu) (use the [`\mainmenu`{lang=acmd}](../commands-list/-mainmenu.md) command or the [Main Menu stick](../items/main-menu)).
 2.  Scroll down and click "Moderation".
 
     ![Main Menu - Hovering Over Moderation Button](/assets/images/systems/main_menu-hovering_over_moderation_button.png)
@@ -55,7 +55,7 @@ mentions:
 
 ## How do I unban a player?
 
-1.  Open the [Main Menu](../main-menu/main-menu) (use the [`\mainmenu`{lang=acmd}](../commands-list/-mainmenu.md) command or the [Main Menu stick](../general/items#Main-Menu)).
+1.  Open the [Main Menu](../main-menu/main-menu) (use the [`\mainmenu`{lang=acmd}](../commands-list/-mainmenu.md) command or the [Main Menu stick](../items/main-menu)).
 2.  Scroll down and click "Moderation".
 
     ![Main Menu - Hovering Over Moderation Button](/assets/images/systems/main_menu-hovering_over_moderation_button.png)
