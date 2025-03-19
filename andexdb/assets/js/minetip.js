@@ -1,6 +1,6 @@
 function waitForjQueryLoad() {
   if (window.jQuery) {
-    $("article").on(
+    $(() => {$("article").on(
       "mouseenter mouseleave touchstart",
       ".animated-container, .mcui, .minetip",
       function (e) {
@@ -160,7 +160,7 @@ function waitForjQueryLoad() {
       });
     }
     console.log("minetip loaded");
-  } else {
+  });} else {
     setTimeout(function () {
       waitForjQueryLoad();
     }, 50);
