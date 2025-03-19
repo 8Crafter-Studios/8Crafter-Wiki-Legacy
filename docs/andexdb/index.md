@@ -24,7 +24,7 @@ General information about the add-on.
 
 </Card>
 
-<Card title="Downloading" link="./general/downloading" image="assets/images/homepage/downloading.png" pixelated>
+<Card title="Downloading" link="./general/downloading" image="/assets/images/homepage/downloading.png" pixelated>
 
 How to download the add-on.
 
