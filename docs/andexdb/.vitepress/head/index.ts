@@ -6,7 +6,7 @@ export default <HeadConfig[]>[
     "link",
     {
       rel: "icon",
-      href: "/andexdb/pack_icon.png",
+      href: "/andexdb/pack_icon.svg",
     },
   ],
   [
@@ -36,6 +36,7 @@ export default <HeadConfig[]>[
   ["script", { src: "/andexdb/assets/js/jquery-ui-1.14.1.custom/jquery-ui.min.js" }],
   ["script", { src: "/andexdb/assets/js/tabber.js" }],
   ["script", { src: "/andexdb/assets/js/minetip.js" }],
+  ["script", { src: "/andexdb/assets/js/cached_animated_pack_icon_image_loader.js" }],
   [
     "script",
     {},

@@ -9,11 +9,7 @@ hide_from_algolia_search: true
 <div class="home">
 <header>
 
-<WikiImage
-    src="/assets/images/homepage/pack_icon_animated_0.5x_frames.svg"
-    alt="8Crafter's Debug Sticks Wiki Logo"
-    pixelated
-/>
+<WikiImage src="/pack_icon.svg" alt="8Crafter's Debug Sticks Wiki Logo" pixelated />
 
 # 8Crafter's Debug Sticks Wiki
 
@@ -22,7 +18,7 @@ This is the wiki for the Minecraft Bedrock Edition Add-On: [8Crafter's Debug Sti
 </header>
 <CardGrid>
 
-<Card title="General Information" link="./general/debug-sticks" image="assets/images/homepage/pack_icon_animated_0.5x_frames.svg" pixelated>
+<Card title="General Information" link="./general/debug-sticks" image="/pack_icon.svg" pixelated>
 
 General information about the add-on.
 
