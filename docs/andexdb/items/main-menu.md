@@ -15,9 +15,11 @@ mentions:
     image="https://minecraft.wiki/images/Debug_Stick.gif?c7249"
     altText="Debug Stick.gif"
     minetip="&dMain Menu"
+    itemID="andexdb:main_menu"
     rarity="Epic"
     renewable="No"
     stackable="Yes (64)"
+    dyeable="Yes"
 />
 
 <!-- <template-Update details="a" />

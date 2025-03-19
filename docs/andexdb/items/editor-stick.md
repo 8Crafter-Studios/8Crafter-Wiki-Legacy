@@ -15,9 +15,11 @@ mentions:
     image="https://minecraft.wiki/images/Debug_Stick.gif?c7249"
     altText="Debug Stick.gif"
     minetip="&dEditor Stick"
+    itemID="andexdb:editor_stick"
     rarity="Epic"
     renewable="No"
     stackable="Yes (64)"
+    dyeable="Yes"
 />
 
 <!-- <template-Update details="a" />

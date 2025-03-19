@@ -15,9 +15,11 @@ mentions:
     image="../assets/images/items/player_menu_2.png"
     altText="player_menu_2.png"
     minetip="Player Menu"
+    itemID="andexdb:player_menu"
     rarity="Common"
     renewable="No"
     stackable="No"
+    dyeable="No"
 />
 
 ## History
