@@ -97,7 +97,7 @@ function toggleSidebarVisibility() {
     font-weight: 600;
 
     & > img {
-      width: 30px;
+      width: 34px;
     }
   }
 
