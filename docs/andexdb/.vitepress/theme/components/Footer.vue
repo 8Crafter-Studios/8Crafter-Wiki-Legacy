@@ -37,6 +37,9 @@ const { site } = useData();
           >Visit our Repository</NavLink
         >
       </li>
+      <li>
+        <NavLink link="/settings" target="_self">Wiki Settings</NavLink>
+      </li>
     </ul>
   </footer>
 </template>
