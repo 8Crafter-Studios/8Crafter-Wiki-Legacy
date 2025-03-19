@@ -781,7 +781,7 @@ Any
             </th>
         </tr>
         <tr class="collapsible-row">
-            <th class="nowrap" rowspan="3" colspan="1">
+            <th class="nowrap" rowspan="1" colspan="1">
                 <a href="/changelogs/v1.24.0" title="Debug Sticks v1.24.0">
                     v1.24.0
                 </a>

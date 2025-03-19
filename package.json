@@ -19,6 +19,7 @@
   "devDependencies": {
     "@docsearch/css": "^3.6.1",
     "@docsearch/js": "^3.6.1",
+    "@types/jquery": "^3.5.32",
     "@types/node": "^22.4.0",
     "@types/sitemap-generator": "^8.5.5",
     "@typescript-eslint/eslint-plugin": "^8.1.0",
@@ -44,6 +45,7 @@
     "cheerio": "^1.0.0",
     "highlight.js": "^11.11.1",
     "instantsearch.css": "^8.5.1",
+    "jquery": "^3.7.1",
     "markdown-it": "^14.1.0",
     "markdown-it-shiki": "^0.9.0",
     "sitemap-generator": "^8.5.1",

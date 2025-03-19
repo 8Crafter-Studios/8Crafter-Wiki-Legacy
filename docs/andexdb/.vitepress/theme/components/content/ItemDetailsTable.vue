@@ -1,14 +1,57 @@
 <script setup lang="ts">
 const props = defineProps<{
   name: string;
-  image: string;
-  altText?: string;
-  minetip: string;
+  image?: string | string[];
+  altText?: string | string[];
+  minetip?: string;
+  itemID?: string | string[];
   rarity?: string;
   durability?: string;
   renewable?: string;
   stackable?: string;
+  dyeable?: string;
+  invslotItems?: { minetip: string; image?: string; altText?: string }[];
+  tabberEnabled?: boolean | "true" | "false" | 0 | 1;
+  tabberItems?: { tabberTitle: string; images?: { image: string; altText?: string }[] }[];
 }>();
+const images = (typeof props.image === "string" ? [props.image] : (props.image ?? [])).map(
+  (v, i) => ({
+    image: v,
+    altText:
+      typeof props.altText === "string"
+        ? props.altText
+        : ((props.altText ?? [])[i] ?? props.altText?.[0]),
+    minetip:
+      typeof props.minetip === "string"
+        ? props.minetip
+        : ((props.minetip ?? [])[i] ?? props.minetip?.[0]),
+  })
+);
+const invslotItemsList: { minetip: string; image?: string; altText?: string }[] = [];
+if (props.minetip !== undefined) {
+  invslotItemsList.push({
+    minetip: props.minetip,
+    image: typeof props.image === "string" ? props.image : props.image?.[0],
+    altText: typeof props.altText === "string" ? props.altText : props.altText?.[0],
+  });
+}
+if (props.invslotItems !== undefined) {
+  invslotItemsList.push(...props.invslotItems);
+}
+const tabberItemsList =
+  props.tabberItems ??
+  props.invslotItems?.map((v) => ({
+    tabberTitle: v.minetip,
+    images: v.image
+      ? [
+          {
+            image: v.image,
+            altText: v.altText,
+          },
+        ]
+      : undefined,
+  })) ??
+  [];
 </script>
 
 <template>
@@ -17,12 +60,12 @@ const props = defineProps<{
       {{ props.name }}
     </div>
     <div class="infobox-imagearea animated-container">
-      <div>
+      <div v-for="(entry, i) in images" :key="i">
         <span class="pixel-image" typeof="mw:File"
-          ><a :href="props.image" class="mw-file-description" title=""
+          ><a :href="entry.image" class="mw-file-description" title=""
             ><img
-              :alt="props.altText"
-              :src="props.image"
+              :alt="entry.altText"
+              :src="entry.image"
               decoding="async"
               loading="lazy"
               width="160"
@@ -32,15 +75,52 @@ const props = defineProps<{
               data-file-height="160" /></a
         ></span>
       </div>
-      <div class="infobox-invimages">
+      <div
+        v-if="
+          String(props.tabberEnabled).toLowerCase() === 'true' ||
+          ((props.tabberItems?.length ?? 0) > 0 &&
+            String(props.tabberEnabled).toLowerCase() !== 'false') ||
+          (tabberItemsList.length > 1 && String(props.tabberEnabled).toLowerCase() !== 'false')
+        "
+      >
+        <div :id="'tabber-' + (Date.now() * Math.random() * 1000).toString(16)" class="tabber">
+          <div
+            v-for="(entry, i) in tabberItemsList"
+            :key="i"
+            class="tabbertab"
+            :data-title="entry.tabberTitle"
+          >
+            <p class="mw-empty-elt"></p>
+            <div v-for="(img, iB) in entry.images ?? []" :key="iB">
+              <span class="pixel-image" typeof="mw:File">
+                <a :href="img.image" class="mw-file-description">
+                  <img
+                    :alt="img.altText"
+                    :src="img.image"
+                    decoding="async"
+                    loading="lazy"
+                    width="150"
+                    height="150"
+                    class="mw-file-element"
+                    data-file-width="300"
+                    data-file-height="300"
+                  />
+                </a>
+              </span>
+            </div>
+            <p class="mw-empty-elt"></p>
+          </div>
+        </div>
+      </div>
+      <div v-if="invslotItemsList.length > 0" class="infobox-invimages">
         <div>
-          <span class="invslot"
-            ><span class="invslot-item invslot-item-image" :data-minetip-title="props.minetip"
+          <span v-for="(entry, i) in invslotItemsList" :key="i" class="invslot"
+            ><span class="invslot-item invslot-item-image" :data-minetip-title="entry.minetip"
               ><span typeof="mw:File"
                 ><span
                   ><img
-                    :alt="props.altText"
-                    :src="props.image"
+                    :alt="entry.altText"
+                    :src="entry.image"
                     decoding="async"
                     loading="lazy"
                     width="32"
@@ -54,14 +134,24 @@ const props = defineProps<{
     </div>
     <table cellspacing="1" cellpadding="4">
       <tbody>
+        <tr v-if="!!props.itemID">
+          <th title="The namespaced ID of the item.">Item ID:</th>
+          <td>
+            <code
+              v-for="(entry, i) in typeof props.itemID === 'string' ? [props.itemID] : props.itemID"
+              :key="i"
+              >{{ entry }}<br
+            /></code>
+          </td>
+        </tr>
         <tr v-if="!!props.rarity">
-          <th title="The rarity tier of this item.">Rarity tier:</th>
+          <th title="The rarity tier of the item.">Rarity tier:</th>
           <td>
             {{ props.rarity }}
           </td>
         </tr>
         <tr v-if="!!props.durability">
-          <th title="The maximum durability of this item.">Durability:</th>
+          <th title="The maximum durability of the item.">Durability:</th>
           <td>
             {{ props.durability }}
           </td>
@@ -76,6 +166,12 @@ const props = defineProps<{
           <th title="Whether or not the item is stackable.">Stackable:</th>
           <td>
             {{ props.stackable }}
+          </td>
+        </tr>
+        <tr v-if="!!props.dyeable">
+          <th title="Whether or not the item can be dyed.">Dyeable:</th>
+          <td>
+            {{ props.dyeable }}
           </td>
         </tr>
       </tbody>
@@ -107,6 +203,7 @@ const props = defineProps<{
     }
   }
   & > .item-details-table-header {
+    color: #fff;
     font-size: 120%;
     padding: 5px;
     font-weight: bold;

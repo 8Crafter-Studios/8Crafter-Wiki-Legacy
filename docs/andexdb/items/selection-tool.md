@@ -1,32 +1,31 @@
 ---
 title: Selection Tool
 nav_order: 1
-description: The player menu item.
+description: The selection tool item.
 show_outline: false
 category: WorldEdit Items
 mentions:
     - Andexter8
 ---
 
-<template-Stub />
+<template-WorkInProgress />
 
 <ItemDetailsTable
-    name="Debug Stick"
-    image="https://minecraft.wiki/images/Wooden_Axe_JE2_BE2.png?ff0b9&format=original"
-    altText="Debug Stick.gif"
-    minetip="&dDebug Stick"
+    name="Selection Tool"
+    image="/andexdb/assets/images/items/Wooden_Axe_JE2_BE2.png"
+    altText="Wooden_Axe_JE2_BE2.png"
+    minetip="Selection Tool"
+    itemID="andexdb:selection_tool"
     rarity="Epic"
     renewable="No"
     stackable="Yes (64)"
+    dyeable="No"
 />
 
-<!-- <template-Update details="a" />
+The selection tool is used to select the `pos1` and `pos2` positions for WorldEdit.
+
+To select a position, just look at the block you want to select, and use the item.
+
+## History
+
 <template-EmptySection />
-<template-ExpandSection />
-<template-IncompleteSection />
-<template-MissingInformation />
-<template-Stub />
-<template-TooTechnical />
-<template-WorkInProgress section="section" />
-<msgbox mini />
-<template-Shelved /> -->

@@ -9,9 +9,17 @@
         "ignore": [
           "-webkit-text-size-adjust",
           "scrollbar-color",
-          "image-rendering: crisp-edges"
+          "image-rendering: crisp-edges",
+          "text-wrap",
+          "text-wrap-mode"
         ]
       }
     ]
-  }
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not chrome <= 109",
+    "not ios_saf <= 16.7"
+  ]
 }

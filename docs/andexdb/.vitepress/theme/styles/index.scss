@@ -1,5 +1,7 @@
 @use "reset";
 
+@use "base";
+
 @use "accentColors";
 @use "code";
 @use "container";
@@ -13,15 +15,6 @@
 @use "table";
 @use "variables";
 @use "fonts";
-
-[href] {
-  color: var(--accent-color);
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-  }
-}
 
 img {
   display: block;
@@ -123,21 +116,4 @@ option {
       margin-right: var(--outline-width);
     }
   }
-}
-
-.mcwiki-header-grass,
-.ns-special .gallerybox img,
-.ns-14 .gallerybox img,
-.filehistory a img,
-.pixel-image,
-.invslot-item-image,
-.sprite {
-  image-rendering: optimizeSpeed;
-  image-rendering: -webkit-optimize-contrast;
-  image-rendering: optimize-contrast;
-  image-rendering: -moz-crisp-edges;
-  image-rendering: -o-crisp-edges;
-  image-rendering: crisp-edges;
-  image-rendering: pixelated;
-  -ms-interpolation-mode: nearest-neighbor;
 }

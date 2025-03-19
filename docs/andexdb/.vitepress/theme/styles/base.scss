@@ -1,0 +1,37 @@
+[href] {
+  color: var(--accent-color);
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.mcwiki-header-grass,
+.ns-special .gallerybox img,
+.ns-14 .gallerybox img,
+.filehistory a img,
+.pixel-image,
+.invslot-item-image,
+.sprite {
+  image-rendering: optimizeSpeed;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: optimize-contrast;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  -ms-interpolation-mode: nearest-neighbor;
+}
+
+.source-control-icon,
+.scicon {
+  width: 16px;
+  height: 16px;
+  color: transparent;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  vertical-align: middle;
+}

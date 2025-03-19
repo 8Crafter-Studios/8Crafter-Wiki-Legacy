@@ -161,7 +161,7 @@
 }
 
 #minetip-tooltip {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   background-color: #100010;
@@ -170,11 +170,14 @@
   font-family: Minecraft, sans-serif;
   font-size: 16px;
   word-spacing: 4px;
-  white-space: nowrap;
+  // white-space: nowrap;
   line-height: 1.25em;
   margin: 0.125em 0.25em;
   pointer-events: none;
   z-index: 9999;
+  max-width: 100%;
+  text-wrap: wrap;
+  word-break: break-all;
 }
 
 #minetip-tooltip::before {
