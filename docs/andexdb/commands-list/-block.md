@@ -718,7 +718,7 @@ Displays debug information about the block.
 
 <indent>
 
-`/block facing set color rgba hex 87CEEBFF`{lang=andexdbcmd}
+`\block facing set color rgba hex 87CEEBFF`{lang=mccmd}
 
 </indent>
 
@@ -726,7 +726,7 @@ Displays debug information about the block.
 
 <indent>
 
-`/block facing set filllevel 6`{lang=andexdbcmd}
+`\block facing set filllevel 6`{lang=mccmd}
 
 </indent>
 
