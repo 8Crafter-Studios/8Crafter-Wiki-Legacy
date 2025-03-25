@@ -1,6 +1,6 @@
 ---
 title: Add-Ons
-description: The basics of Add-Ons
+description: All of 8Crafter's Minecraft Bedrock Edition add-ons.
 nav_order: 2
 mentions:
     - Andexter8
@@ -19,6 +19,18 @@ mentions:
 <Card title="Entity Scale" link="./entity-scale" image="/assets/images/add-on_cover_art/andexsa.png">
 
 8Crafter's Entity Scale, NBT, and Behavior Modifier, Bossbar, and Morph Addon
+
+</Card>
+
+<Card title="Secret Items Loader" link="./secret-items-loader" image="/assets/images/icons/missing-pack-icon.png">
+
+8Crafter's Secret Items Loader
+
+</Card>
+
+<Card title="BlueMods Anticheat" link="./bluemods-anticheat" image="/assets/images/add-on_cover_art/bluemods.png">
+
+BlueMods Anticheat
 
 </Card>
 
