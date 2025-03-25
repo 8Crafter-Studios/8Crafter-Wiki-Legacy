@@ -22,7 +22,7 @@ mentions:
 
 </Card>
 
-<Card title="Secret Items Loader" link="./secret-items-loader" image="/assets/images/icons/missing-pack-icon.png">
+<Card title="Secret Items Loader" link="./secret-items-loader" image="/assets/images/icons/missing_pack_icon.png">
 
 8Crafter's Secret Items Loader
 
