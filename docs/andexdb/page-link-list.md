@@ -12,6 +12,8 @@ hide_from_algolia_search: true
 
 <a href="page-link-list">page-link-list</a>
 
+<a href="settings">settings</a>
+
 <a href="test">test</a>
 
 <a href="blocks/ifill-command-placeholder-block">blocks/ifill-command-placeholder-block</a>
@@ -43,6 +45,20 @@ hide_from_algolia_search: true
 <a href="changelogs/v1.29.4">changelogs/v1.29.4</a>
 
 <a href="changelogs/v1.30.0">changelogs/v1.30.0</a>
+
+<a href="changelogs/v1.30.1">changelogs/v1.30.1</a>
+
+<a href="changelogs/v1.31.0">changelogs/v1.31.0</a>
+
+<a href="changelogs/v1.32.0">changelogs/v1.32.0</a>
+
+<a href="changelogs/v1.32.1">changelogs/v1.32.1</a>
+
+<a href="changelogs/v1.33.0">changelogs/v1.33.0</a>
+
+<a href="changelogs/v1.33.1">changelogs/v1.33.1</a>
+
+<a href="changelogs/v1.34.0">changelogs/v1.34.0</a>
 
 <a href="commands/andexdbcmd-language-test">commands/andexdbcmd-language-test</a>
 
@@ -164,6 +180,18 @@ hide_from_algolia_search: true
 
 <a href="commands-list/--walls">commands-list/--walls</a>
 
+<a href="commands-list/-align">commands-list/-align</a>
+
+<a href="commands-list/-aligncenter">commands-list/-aligncenter</a>
+
+<a href="commands-list/-attribute">commands-list/-attribute</a>
+
+<a href="commands-list/-binvsee">commands-list/-binvsee</a>
+
+<a href="commands-list/-block">commands-list/-block</a>
+
+<a href="commands-list/-bluemodsversion">commands-list/-bluemodsversion</a>
+
 <a href="commands-list/-help">commands-list/-help</a>
 
 <a href="commands-list/-mainmenu">commands-list/-mainmenu</a>
@@ -190,7 +218,21 @@ hide_from_algolia_search: true
 
 <a href="items/debug-stick">items/debug-stick</a>
 
+<a href="items/editor-stick">items/editor-stick</a>
+
 <a href="items/index">items/index</a>
+
+<a href="items/main-menu">items/main-menu</a>
+
+<a href="items/player-menu">items/player-menu</a>
+
+<a href="items/programmable-items">items/programmable-items</a>
+
+<a href="items/selection-tool">items/selection-tool</a>
+
+<a href="items/ultra-bundle">items/ultra-bundle</a>
+
+<a href="items/worldedit-brushes">items/worldedit-brushes</a>
 
 <a href="main-menu/index">main-menu/index</a>
 
@@ -276,7 +318,11 @@ hide_from_algolia_search: true
 
 <a href="systems/sign-shop">systems/sign-shop</a>
 
+<a href="systems/spawn-protection">systems/spawn-protection</a>
+
 <a href="systems/tpa">systems/tpa</a>
+
+<a href="systems/tpa_(Pre_1.33.0)">systems/tpa_(Pre_1.33.0)</a>
 
 <a href="usm/command-required-permission-levels">usm/command-required-permission-levels</a>
 
@@ -287,5 +333,3 @@ hide_from_algolia_search: true
 <a href="settings/extra-features/shop-system">settings/extra-features/shop-system</a>
 
 <a href="settings/extra-features/world-border-system">settings/extra-features/world-border-system</a>
-
-<a href="testb(DELETE THIS FILE AFTER)">testb(DELETE THIS FILE AFTER)</a>

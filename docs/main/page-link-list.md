@@ -32,6 +32,12 @@ hide_from_algolia_search: true
 
 <a href="add-ons/index">add-ons/index</a>
 
+<a href="add-ons/online-player-hider">add-ons/online-player-hider</a>
+
+<a href="add-ons/pause-menu-button-remover">add-ons/pause-menu-button-remover</a>
+
+<a href="add-ons/world-height-limit-modifier">add-ons/world-height-limit-modifier</a>
+
 <a href="apple_shortcuts/index">apple_shortcuts/index</a>
 
 <a href="apple_shortcuts/list">apple_shortcuts/list</a>

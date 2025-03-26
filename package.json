@@ -14,7 +14,8 @@
     "fastbuild:win32": "set FAST_BUILD=true && set NODE_OPTIONS=--max-old-space-size=8192 && vitepress build docs/main && vitepress build docs/andexdb",
     "fastbuild:darwin:linux": "export FAST_BUILD=true && export NODE_OPTIONS=--max-old-space-size=8192 && vitepress build docs/main && vitepress build docs/andexdb",
     "preview": "vitepress preview docs/main && vitepress preview docs/andexdb",
-    "lint": "eslint --fix docs/main/.vitepress && eslint --fix docs/andexdb/.vitepress"
+    "lint": "eslint --fix docs/main/.vitepress && eslint --fix docs/andexdb/.vitepress",
+    "generate-page-link-list": "node generate_page_link_list_md.js"
   },
   "devDependencies": {
     "@docsearch/css": "^3.6.1",
