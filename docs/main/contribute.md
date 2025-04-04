@@ -1,6 +1,6 @@
 ---
-title: Contributing to the Bedrock Wiki
-description: The Bedrock Wiki needs your contributions!
+title: Contributing to the 8Crafter Wiki
+description: The 8Crafter Wiki needs your contributions!
 show_contributors: false
 show_outline: false
 hidden: true
@@ -12,15 +12,15 @@ Have you spotted a typo? Got stuck following one of our guides? Want to contribu
 
 ## Contributing
 
-The Bedrock wiki is a fully open source project and is maintained by the Bedrock OSS Organization, and our lovely community.
+The 8Crafter Wiki is a fully open source project. The backend of it is a highly modified fork of the bedrock wiki. So, if this wiki looks very similar to the bedrock wiki, that is why.
 
-To contribute to our wiki, you don't need to be part of Bedrock OSS. The members of this organization have experience in editing the wiki and can answer your questions at any time. Please join our [discord server](https://discord.gg/XjV87YN) if you want to get in touch.
+To contribute to the 8Crafter Wiki, you don't need to be part of 8Crafter Studios. Please join our [discord server](https://discord.gg/jrCTeHGuhx) if you want to get in touch.
 
 <CardGrid>
 <Card
     title="GitHub"
-    link="https://github.com/Bedrock-OSS/bedrock-wiki"
-    image="/assets/images/misc/github.png"
+    link="https://github.com/8Crafter-Studios/8Crafter-Wiki"
+    image="/favicon.gif"
 >
 
 The Wiki is hosted and edited on GitHub, and we process edits through the pull-request process.
@@ -30,13 +30,11 @@ You are more than welcome to directly suggest edits for our approval.
 </Card>
 <Card
     title="Contact Us"
-    link="https://discord.gg/XjV87YN"
+    link="https://discord.gg/jrCTeHGuhx"
     image="/assets/images/discord/oss.png"
 >
 
-Bedrock OSS is a programming-focused creators discord for Bedrock, where all wiki edits are discussed.
-
-Here you can report wiki issues, collaborate on new articles, or simply get in touch with the authors of various pages.
+8Crafter Studios is the official discord server for the youtuber and add-on creator, 8Crafter. In that discord server you can get help with any problems you may have with any of my add-ons, as well as get help with your own add-ons, you can also vote in polls for things such as what 8Crafter's next video should be.
 
 </Card>
 <Card
