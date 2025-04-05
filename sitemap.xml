@@ -453,6 +453,10 @@
     <lastmod>2025-04-04</lastmod>
   </url>
   <url>
+    <loc>https://wiki.8crafter.com/andexdb/commands-list/--stsphere</loc>
+    <lastmod>2025-04-04</lastmod>
+  </url>
+  <url>
     <loc>https://wiki.8crafter.com/andexdb/commands-list/--tube</loc>
     <lastmod>2025-04-04</lastmod>
   </url>
@@ -478,10 +482,6 @@
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/systems/chat-ranks</loc>
-    <lastmod>2025-04-04</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/andexdb/commands-list/--stsphere</loc>
     <lastmod>2025-04-04</lastmod>
   </url>
   <url>
@@ -785,6 +785,18 @@
     <lastmod>2025-04-04</lastmod>
   </url>
   <url>
+    <loc>https://wiki.8crafter.com/andexdb/items/player-menu.html</loc>
+    <lastmod>2025-04-04</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/main-menu/main-menu.html</loc>
+    <lastmod>2025-04-04</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/systems/player-shop.html</loc>
+    <lastmod>2025-04-04</lastmod>
+  </url>
+  <url>
     <loc>https://wiki.8crafter.com/andexdb/commands-list/--protectarea.html</loc>
     <lastmod>2025-04-04</lastmod>
   </url>
@@ -825,35 +837,43 @@
     <lastmod>2025-04-04</lastmod>
   </url>
   <url>
-    <loc>https://wiki.8crafter.com/andexdb/main-menu/main-menu.html</loc>
-    <lastmod>2025-04-04</lastmod>
-  </url>
-  <url>
     <loc>https://wiki.8crafter.com/andexdb/items/main-menu.html</loc>
     <lastmod>2025-04-04</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/settings/chat-ranks.html</loc>
-    <lastmod>2025-04-04</lastmod>
+    <lastmod>2025-04-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/systems/tpa_%28Pre_1.33.0%29.html</loc>
-    <lastmod>2025-04-04</lastmod>
+    <lastmod>2025-04-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/settings/tpa-system.html</loc>
-    <lastmod>2025-04-04</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/andexdb/items/player-menu.html</loc>
-    <lastmod>2025-04-04</lastmod>
+    <lastmod>2025-04-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/systems/tpa.html</loc>
-    <lastmod>2025-04-04</lastmod>
+    <lastmod>2025-04-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/settings/general.html</loc>
-    <lastmod>2025-04-04</lastmod>
+    <lastmod>2025-04-05</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/commands-list/-playermenu</loc>
+    <lastmod>2025-04-05</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/player-menu/player-menu</loc>
+    <lastmod>2025-04-05</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/systems/home.html</loc>
+    <lastmod>2025-04-05</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/systems/server-shop.html</loc>
+    <lastmod>2025-04-05</lastmod>
   </url>
 </urlset>
