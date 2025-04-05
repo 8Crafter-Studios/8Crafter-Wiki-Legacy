@@ -23,6 +23,7 @@ mentions:
 <Button link="/andexdb/" target="_self">
     Full Documentation
 </Button>
+<Button link="/andexdb/changelogs">Changelogs</Button>
 
 This add-on does almost everything. It is one of the most powerful bedrock add-ons that currently exists.
 

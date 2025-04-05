@@ -8,7 +8,7 @@ mentions:
     - Andexter8
 ---
 
-Opens up the main menu.
+Opens up the [Main Menu](../main-menu/main-menu).
 
 <CommandDetailsTable
     name="\mainmenu"

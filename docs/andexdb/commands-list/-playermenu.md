@@ -1,28 +1,26 @@
 ---
-title: \bluemodsversion
-page_title: \bluemodsversion
-description: The \bluemodsversion command.
+title: \playermenu
+page_title: \playermenu
+description: The \playermenu command.
 show_outline: false
 category: Main
-nav_order: 3
 mentions:
-    - stormstqr
+    - Andexter8
 ---
 
-Displays the current version of [BlueMods Anticheat](/../main/add-ons/bluemods-anticheat) that is on the world/realm/server. Also displays if multiple versions of BlueMods Anticheat are active.
+Opens up the [Player Menu](../player-menu/player-menu).
 
 <CommandDetailsTable
-    name="\bluemodsversion"
+    name="\playermenu"
     :aliases="[
-        'bmver'
+        '\\pmenu',
+        '\\pm'
     ]"
     :categories="[
-        'world', 'system', 'players'
+        'uis'
     ]"
-    :requiredTags="[
-        'canUseChatCommands'
-    ]"
-    ultraSecurityModeSecurityLevel="admin"
+    :requiredTags="[]"
+    ultraSecurityModeSecurityLevel="everyone"
     version="1.0.0"
     :undoSupported="-1"
     :functional="true"
@@ -31,9 +29,7 @@ Displays the current version of [BlueMods Anticheat](/../main/add-ons/bluemods-a
 
 ## Syntax
 
-`\bluemodsversion`{lang=andexdbcmd}
-
-<indent>Displays the current version of BlueMods Anticheat that is on the world/realm/server. Also displays if multiple versions of BlueMods Anticheat are active.</indent>
+`\playermenu`{lang=andexdbcmd}
 
 ## Result
 
@@ -52,21 +48,21 @@ Always succeeds.
         </tr>
         <tr class="collapsible-row">
             <th class="nowrap" rowspan="1" colspan="1">
-                <a href="/changelogs/v1.30.0" title="Debug Sticks v1.30.0">
-                    v1.30.0
+                <a href="/changelogs/v1.33.0" title="Debug Sticks v1.33.0">
+                    v1.33.0
                 </a>
             </th>
             <th colspan="4" rowspan="1">
                 <a
-                    href="/changelogs/v1.30.0"
-                    title="Debug Sticks v1.30.0"
+                    href="/changelogs/v1.33.0"
+                    title="Debug Sticks v1.33.0"
                 >
                     release
                 </a>
             </th>
             <td>
 
-Added `\bluemodsversion`{lang=acmd}.
+Added `\playermenu`{lang=acmd}.
 
 </td>
         </tr>

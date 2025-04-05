@@ -13,8 +13,8 @@
     "jsx": "preserve",
     "jsxImportSource": "vue",
     "paths": {
-      "/*": ["./docs/andexdb/*", "./docs/andexdb/public/*"]
-    }
+      "/*": ["./*", "./public/*"],
+    },
   },
-  "include": ["docs/main/.vitepress/**/*.ts", "docs/main/.vitepress/**/*.vue"]
+  "include": [".vitepress/**/*.ts", ".vitepress/**/*.vue"]
 }

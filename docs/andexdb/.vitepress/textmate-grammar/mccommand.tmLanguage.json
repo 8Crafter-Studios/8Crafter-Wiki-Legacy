@@ -578,9 +578,6 @@
           "name": "meta.property.curly",
           "patterns": [
             {
-              "include": "#block-mask-or-pattern"
-            },
-            {
               "include": "#resource-name"
             },
             {
@@ -611,9 +608,6 @@
           "end": "\\]",
           "name": "meta.property.square",
           "patterns": [
-            {
-              "include": "#block-mask-or-pattern"
-            },
             {
               "include": "#resource-name"
             },

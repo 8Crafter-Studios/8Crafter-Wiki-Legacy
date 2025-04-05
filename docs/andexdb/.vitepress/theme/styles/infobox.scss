@@ -4445,6 +4445,7 @@ body > .oo-ui-windowManager,
   height: 100%;
   position: relative;
   font-size: 0.875rem;
+  -webkit-user-select: none;
   user-select: none;
 }
 .embedvideo-overlay > div {
