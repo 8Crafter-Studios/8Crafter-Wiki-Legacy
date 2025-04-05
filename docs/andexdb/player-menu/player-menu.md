@@ -27,3 +27,5 @@ It includes many features, such as:
 -   [A code redemption system UI.](./code-redemption) You can create codes that players can enter into this menu that give them a specific item when they enter it, and each person can only enter each code once.
 
 The player menu can be accessed through either the [Player Menu](../items/player-menu) item, or the [`\playermenu`{lang=acmd}](../commands-list/-playermenu) command.
+
+For information on how to customize the player menu, see [Player Menu Settings](../settings/uis/menu-configurations/player-menu).
