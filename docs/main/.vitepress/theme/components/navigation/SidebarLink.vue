@@ -63,6 +63,12 @@ function activate() {
 
   &__tags {
     margin-left: auto;
+    text-align: right;
+    margin-bottom: -0.5em;
+  }
+
+  &__tags > div.label {
+    margin-bottom: 0.5em;
   }
 }
 </style>

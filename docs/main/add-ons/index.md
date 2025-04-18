@@ -16,4 +16,4 @@ description: Add-Ons section index page.
 hide_from_algolia_search: true
 ---
 
-<Button link="./addons">Add-Ons List</Button>
+<Button link="./add-ons">Add-Ons List</Button>

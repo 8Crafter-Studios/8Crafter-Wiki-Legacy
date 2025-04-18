@@ -89,8 +89,10 @@ This add-on does almost everything. It is one of the most powerful bedrock add-o
 <style>
     .video-container {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  height: 0;
+  /* padding-bottom: 56.25%; */ /* 16:9 */
+  /* height: 0; */
+  width: 100%;
+  aspect-ratio: 16 / 9;
 }
 .video-container iframe {
   position: absolute;

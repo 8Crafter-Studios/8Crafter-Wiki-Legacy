@@ -41,8 +41,10 @@ This addon lets you change entity scale, modify entity behaviors and NBT data, m
 <style>
     .video-container {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  height: 0;
+  /* padding-bottom: 56.25%; */ /* 16:9 */
+  /* height: 0; */
+  width: 100%;
+  aspect-ratio: 16 / 9;
 }
 .video-container iframe {
   position: absolute;

@@ -27,7 +27,9 @@ const { color } = defineProps<{
   }
 }
 
-.label[data-accent-color="yellow"] {
+.label[data-accent-color="yellow"],
+.label[data-accent-color="pink"],
+.label[data-accent-color="white"] {
   color: #252525;
 }
 </style>

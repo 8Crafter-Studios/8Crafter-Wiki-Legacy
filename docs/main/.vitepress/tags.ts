@@ -117,4 +117,32 @@ export default {
     color: "blue",
     sidebar: true,
   },
+  nodejs_Web: {
+    color: "blue",
+    sidebar: {
+      text: "Web",
+    },
+    text: "Web",
+  },
+  nodejs_Module: {
+    color: "pink",
+    sidebar: {
+      text: "MOD",
+    },
+    text: "Module",
+  },
+  nodejs_CLI: {
+    color: "yellow",
+    sidebar: {
+      text: "CLI",
+    },
+    text: "CLI",
+  },
+  nodejs_NPM: {
+    color: "red",
+    sidebar: {
+      text: "NPM",
+    },
+    text: "NPM",
+  },
 } satisfies Tags;

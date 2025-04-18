@@ -47,8 +47,8 @@ export function transformHead({ pageData, siteConfig }: TransformContext) {
   if(!!sourceURL){
     window.history.replaceState({}, '404 | 8Crafter Wiki', sourceURL);
   }
-}`
-    ]
+}`,
+    ],
   ];
 
   Object.entries(data).forEach(([name, content]) => {
