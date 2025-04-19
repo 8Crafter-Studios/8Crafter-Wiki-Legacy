@@ -31,6 +31,8 @@ Even though this web application fetches files, the files are loaded from the we
 
 When you run this web application locally on your device, it will run on port `8213` by default, so you can access it by going to [http://localhost:8213/utilities/ore-ui-customizer.html](http://localhost:8213/utilities/ore-ui-customizer.html) on the device it is running on, or to access it from another device on your local network, just find your device's local IP address and go to [http://IP_ADDRESS:8213/utilities/ore-ui-customizer.html](http://IP_ADDRESS:8213/utilities/ore-ui-customizer.html) (replace `IP_ADDRESS` with your local IP address).
 
+## Main Features
+
 It has many features, such as:
 - Adding many custom menus to Ore UI, including but not limited to:
     - 8Crafter Utilities Menu
