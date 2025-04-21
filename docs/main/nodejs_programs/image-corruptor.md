@@ -1,7 +1,7 @@
 ---
 title: Image Corruptor
 page_title: 8Crafter's Image Corruptor
-category: Upcoming
+category: Released
 description: 8Crafter's Image Corruptor
 tags:
     - nodejs_CLI
