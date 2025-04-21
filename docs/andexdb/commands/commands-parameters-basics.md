@@ -15,7 +15,7 @@ In the syntax of a command there are multiple ways a parameter can be written ou
 
 ### Optional Parameters:
 
-Optional parameters are enclosed in square brackets like this: `[name: string]`
+Optional parameters are enclosed in square brackets like this: `[name: string]`{lang=acmd}
 
 Note: Parameters written as a dash followed by a string of characters enclosed in square brackets (ex. `[-tfsa]`{lang=acmd} or `[-z]`{lang=acmd}) is not considered an optional parameter, this is a [flags parameter](#flags-parameters).
 
