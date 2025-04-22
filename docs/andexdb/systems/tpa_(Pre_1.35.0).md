@@ -1,16 +1,19 @@
 ---
-title: TPA System
+title: TPA System (Pre 1.35.0)
 nav_order: 4
-description: The add-on's TPA system.
+description: The add-on's TPA system (Pre 1.35.0).
+hidden: true
 mentions:
     - Andexter8
 ---
 
-:::info
+:::warning
 
-This page only applies to versions v1.35.0 and above of the add-on.
+This page only applies to versions v1.33.0 to v1.34.x of the add-on.
 
-If you are using a version prior to v1.35.0, please see the [TPA System (Pre 1.35.0)](<../systems/tpa_(Pre_1.35.0)>) page.
+If you are using a version prior to v1.33.0, please see the [TPA System (Pre 1.33.0)](<../systems/tpa_(Pre_1.33.0)>) page.
+
+If you are using v1.35.0 or newer, please see the [TPA System](../systems/tpa) page.
 
 :::
 
@@ -62,11 +65,11 @@ Use the [`\tpa <player: target>`{lang=acmd}](../commands-list/-tpa) command (ex.
 
 ### Accepting a teleport request
 
-#### Option 1: Using a command
+#### If the request was sent using the [`\tpa`{lang=mccommand}](../commands-list/-tpa) command
 
-Use the [`\tpaccept <player: target>`{lang=acmd}](../commands-list/-tpaccept) command (ex. ` `{lang=mccommand noRightCodeBlock=true}[`\tpaccept`{lang=mccommand noLeftCodeBlock=true noRightCodeBlock=true}](../commands-list/-tpaccept) `Andexter8`{lang=mccommand noLeftCodeBlock=true} or ` `{lang=mccommand noRightCodeBlock=true}[`\tpaccept`{lang=mccommand noLeftCodeBlock=true noRightCodeBlock=true}](../commands-list/-tpaccept) `@a`{lang=mccommand noLeftCodeBlock=true}).
+1. Type "y" in the chat.
 
-#### Options 2: Using the player menu
+#### If the request was sent using the player menu
 
 1. Open the player menu (use the [`\playermenu`{lang=acmd}](../commands-list/-playermenu.md) command or the [Player Menu](../items/player-menu) item).
 2. Click "TPA".
@@ -87,11 +90,11 @@ Use the [`\tpaccept <player: target>`{lang=acmd}](../commands-list/-tpaccept) co
 
 ### Declining a teleport request
 
-#### Option 1: Using a command
+#### If the request was sent using the [`\tpa`{lang=mccommand}](../commands-list/-tpa) command
 
-Use the [`\tpdeny <player: target>`{lang=acmd}](../commands-list/-tpdeny) command (ex. ` `{lang=mccommand noRightCodeBlock=true}[`\tpdeny`{lang=mccommand noLeftCodeBlock=true noRightCodeBlock=true}](../commands-list/-tpdeny) `Andexter8`{lang=mccommand noLeftCodeBlock=true} or ` `{lang=mccommand noRightCodeBlock=true}[`\tpdeny`{lang=mccommand noLeftCodeBlock=true noRightCodeBlock=true}](../commands-list/-tpdeny) `@a`{lang=mccommand noLeftCodeBlock=true}).
+1. Type "n" in the chat.
 
-#### Options 2: Using the player menu
+#### If the request was sent using the player menu
 
 1. Open the player menu (use the [`\playermenu`{lang=acmd}](../commands-list/-playermenu.md) command or the [Player Menu](../items/player-menu) item).
 2. Click "TPA".

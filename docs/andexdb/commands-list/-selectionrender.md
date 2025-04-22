@@ -94,20 +94,20 @@ Added `\selectionrender`{lang=acmd}.
         <tr class="collapsible collapsible-rows">
             <th colspan="8" style="border-bottom: none">
                 <!-- <a href="/w/Pocket_Edition_Alpha" title="Pocket Edition Alpha"> -->
-                    Upcoming Debug Sticks
+                    Upcoming Server Utilities
                 <!-- </a> -->
             </th>
         </tr>
         <tr class="collapsible-row">
             <th class="nowrap" rowspan="1" colspan="1">
-                <a href="/changelogs/v1.35.0" title="Debug Sticks v1.35.0">
+                <a href="/changelogs/v1.35.0" title="Server Utilities v1.35.0">
                     v1.35.0
                 </a>
             </th>
             <th colspan="4" rowspan="1">
                 <a
                     href="/changelogs/v1.35.0"
-                    title="Debug Sticks v1.35.0"
+                    title="Server Utilities v1.35.0"
                 >
                     release
                 </a>
