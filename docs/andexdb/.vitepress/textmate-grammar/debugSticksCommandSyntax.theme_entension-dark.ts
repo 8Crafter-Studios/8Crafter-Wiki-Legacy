@@ -20,6 +20,12 @@ const tokenColors = [
     },
   },
   {
+    scope: "parameter.ignorable_named.andexdbcmd",
+    settings: {
+      foreground: "#ec4b81",
+    },
+  },
+  {
     scope: "parameter.ignorable.andexdbcmd",
     settings: {
       foreground: "#C586C0",

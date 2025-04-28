@@ -85,8 +85,39 @@
       }
     },
     {
+      "name": "parameter.ignorable_named.andexdbcmd",
+      "match": "(?<= |^|^\\\\{1,2}[a-zA-Z0-9#]+)(\\{\\[)([a-zA-Z0-9\\s\\-_§]+)(?:: ((?:[a-zA-Z0-9\\s\\-_\\(\\)\\{\\}|§~\\^]|(\\[.*?\\])?)+)(\\[.*?\\])?)?(\\]\\})(?!\\})(?= |$)",
+      "captures": {
+        "1": {
+          "name": "punctuation.definition.ignorable_named.andexdbcmd"
+        },
+        "2": {
+          "name": "entity.name.parameter.andexdbcmd"
+        },
+        "3": {
+          "name": "meta.type.annotation.andexdbcmd",
+          "patterns": [
+            {
+              "include": "#parameter_type"
+            }
+          ]
+        },
+        "4": {
+          "name": "meta.parameter.type.restrictions.andexdbcmd",
+          "patterns": [
+            {
+              "include": "#parameter_restrictions"
+            }
+          ]
+        },
+        "5": {
+          "name": "punctuation.definition.ignorable_named.andexdbcmd"
+        }
+      }
+    },
+    {
       "name": "parameter.ignorable.andexdbcmd",
-      "match": "(?<= |^|^\\\\{1,2}[a-zA-Z0-9#]+)(\\{)([a-zA-Z0-9\\s\\-_]+)(?:: ([a-zA-Z0-9\\s\\-_]+(?:<[a-zA-Z0-9\\s\\-_]+>)?)(\\[.*?\\])?)?(\\})(?!\\})(?= |$)",
+      "match": "(?<= |^|^\\\\{1,2}[a-zA-Z0-9#]+)(\\{)([a-zA-Z0-9\\s\\-_§]+)(?:: ((?:[a-zA-Z0-9\\s\\-_\\(\\)\\{\\}|§~\\^]|(\\[.*?\\])?)+)(\\[.*?\\])?)?(\\})(?!\\})(?= |$)",
       "captures": {
         "1": {
           "name": "punctuation.definition.ignorable.andexdbcmd"
@@ -133,6 +164,9 @@
         },
         {
           "include": "#parameter.required.andexdbcmd"
+        },
+        {
+          "include": "#parameter.ignorable_named.andexdbcmd"
         },
         {
           "include": "#parameter.ignorable.andexdbcmd"

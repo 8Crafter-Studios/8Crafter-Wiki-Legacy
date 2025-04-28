@@ -33,6 +33,10 @@ Replaces the ceiling of the selected area with the selected block type.
 
 <indent>Replaces the top y level of the currently selected region with a new block</indent>
 
+## Arguments
+
+<template-EmptySection />
+
 ## Result
 
 <template-EmptySection />

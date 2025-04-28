@@ -9,11 +9,7 @@ mentions:
     - stormstqr
 ---
 
-<template-Planned />
-
 <template-Stub />
-
-<template-EmptySection />
 
 Pastes the clipboard to the selected area.
 
@@ -37,6 +33,10 @@ Pastes the clipboard to the selected area.
 `\\paste [-webxzh] [integrity: float] [integritySeed: string] [rotation: 0|90|180|270] [animationMode: none|blocks|layers] [animationSeconds: float]`{lang=andexdbcmd}
 
 <indent>Paste from the clipboard to the selected area</indent>
+
+## Arguments
+
+<template-EmptySection />
 
 ## Result
 

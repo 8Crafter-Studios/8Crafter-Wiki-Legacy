@@ -35,6 +35,10 @@ After using this command to create a backup area, you must use the `\snapshot` c
 
 <indent>Creates a backup area for the relevant area</indent>
 
+## Arguments
+
+<template-EmptySection />
+
 ## Result
 
 <template-EmptySection />

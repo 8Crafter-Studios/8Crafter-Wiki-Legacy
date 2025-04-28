@@ -32,6 +32,10 @@ Copies the selected area to the clipboard.
 
 <indent>Copies highlighted region</indent>
 
+## Arguments
+
+<template-EmptySection />
+
 ## Result
 
 <template-EmptySection />

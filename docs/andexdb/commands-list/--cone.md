@@ -32,6 +32,10 @@ Generates a cone in the selected area.
 
 <indent>Generates a cone with the specified dimensions and palette</indent>
 
+## Arguments
+
+<template-EmptySection />
+
 ## Result
 
 <template-EmptySection />

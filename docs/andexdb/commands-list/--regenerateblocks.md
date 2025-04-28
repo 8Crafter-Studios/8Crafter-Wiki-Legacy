@@ -35,7 +35,7 @@ Regenerates blocks in the selected area based on the surrounding blocks.
 
 ## Arguments
 
-`[-isabd]`{lang=andexdbcmd}: [flags](../commands/parameter-types#flags)
+`[-isabd]`{lang=andexdbcmd}: [flags](../commands/commands-parameters-basics#flags-parameters)
 
 <indent>
 
@@ -43,15 +43,15 @@ A flags parameter.
 
 Here are what each of the flags do:
 
-i: Makes it so the command does not ignore air blocks when looking at the surrounding blocks to determine what type of block to generate.
+`i`: Makes it so the command does not ignore air blocks when looking at the surrounding blocks to determine what type of block to generate.
 
-s: Allows the command to replace non-air blocks.
+`s`: Allows the command to replace non-air blocks.
 
-a: Causes surrounding air blocks that are in the section that has yet to be generated to not affect the type of blocks generated.
+`a`: Causes surrounding air blocks that are in the section that has yet to be generated to not affect the type of blocks generated.
 
-b: Causes all surrounding blocks that are in the section that has yet to be generated to not affect the type of blocks generated.
+`b`: Causes all surrounding blocks that are in the section that has yet to be generated to not affect the type of blocks generated.
 
-d: Stops the command from prioritizing surrounding blocks that are closer to the block being generated when determining what type of block to generate.
+`d`: Stops the command from prioritizing surrounding blocks that are closer to the block being generated when determining what type of block to generate.
 
 </indent>
 
@@ -117,7 +117,31 @@ Defaults to 0.5.
 
 ## Result
 
-<template-EmptySection />
+<table class="wikitable" data-description="command results">
+    <tbody>
+        <tr>
+            <th>Command</th>
+            <th>Trigger</th>
+            <th>Result</th>
+        </tr>
+        <tr>
+            <td align="center" rowspan="2">
+
+Any
+
+</td>
+            <td>
+                The command is incomplete, or any argument is not specified correctly.
+            </td>
+            <td align="center" rowspan="1" class="tc-unknown"> Unparseable</td>
+        </tr>
+        <tr>
+            <td align="center" class="tc-yes">Otherwise</td>
+            <td align="center" class="tc-yes" colspan="2">Successful</td>
+        </tr>
+    </tbody>
+
+</table>
 
 ## History
 

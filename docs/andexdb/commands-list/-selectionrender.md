@@ -14,6 +14,8 @@ It uses the same pos1 and pos2 particles that are used when using the [Selction 
 
 It uses the pos1 particles for parts of the selection that are closer to the pos1 position, and uses the pos2 particles for parts of the selection that are closer to the pos2 position.
 
+![example 1](../public/assets/images/commands-list/-selectionrender/example_1.png)
+
 <CommandDetailsTable
     name="\selectionrender"
     :aliases="[
@@ -33,8 +35,6 @@ It uses the pos1 particles for parts of the selection that are closer to the pos
     :functional="true"
     :deprecated="false"
 />
-
-![example 1](../public/assets/images/commands-list/-selectionrender/example_1.png)
 
 ## Syntax
 

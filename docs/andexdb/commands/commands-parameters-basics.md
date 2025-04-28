@@ -59,6 +59,68 @@ So this means that this command syntax is actually like four separate syntaxes, 
 
 `\examplecommand <player: target>`{lang=andexdbcmd}
 
+### Named Ignorable Parameters:
+
+Named ignorable parameters are enclosed in square brackets that are enclosed in curly brackets like this: `{[includeEntities: boolean]}`{lang=andexdbcmd}
+
+Named ignorable parameters are like ignorable parameters, except that if you do specify them, you have to include their name, so in the following command:
+
+`\examplecommand <player: target> {[name: string]} [escapeCodesEnabled: boolean]`{lang=andexdbcmd}
+
+The following would be still be valid, just like with ignorable parameters:
+
+`\examplecommand @p true`{lang=mccmd}
+
+`\examplecommand @p`{lang=mccmd}
+
+However the following would not:
+
+`\examplecommand @p Herobrine true`{lang=mccmd}
+
+Instead you would have to do:
+
+`\examplecommand @p name=Herobrine true`{lang=mccmd}
+
+And instead of:
+
+`\examplecommand @p "Steve but with spaces" true`{lang=mccmd}
+
+You would have to do:
+
+`\examplecommand @p name="Steve but with spaces" true`{lang=mccmd}
+
+Note: The name part of the parameter **is not** case sensitive, **unless** the `nameIsCaseSensitive` parameter restriction is set to `true`.
+
+Example:
+
+In the following command syntax the `name=` part **is not** case sensitive:
+
+`\examplecommand <player: target> {[name: string]} [escapeCodesEnabled: boolean]`{lang=andexdbcmd}
+
+However, in this command syntax the `name=` part **is** case sensitive:
+
+`\examplecommand <player: target> {[name: string[nameIsCaseSensitive=true]]} [escapeCodesEnabled: boolean]`{lang=andexdbcmd}
+
+Additionally, if the `parameterName` parameter restriction is provided, then the value of that restiriction must be used as the name of the parameter instead.
+
+Example:
+
+If the syntax is:
+
+`\examplecommand <player: target> {[name: string]} [escapeCodesEnabled: boolean]`{lang=andexdbcmd}
+
+Then you would put:
+
+`\examplecommand @p name=Herobrine true`{lang=mccmd}
+
+But if the syntax is:
+
+`\examplecommand <player: target> {[name: string[parameterName=playerName]]]} [escapeCodesEnabled: boolean]`{lang=andexdbcmd}
+
+Then you would put:
+
+`\examplecommand @p playerName=Herobrine true`{lang=mccmd}
+
 ### Flags Parameters:
 
 Flags parameters are written as a dash followed by a string of characters enclosed in square brackets like this: `[-tfsa]`{lang=andexdbcmd}

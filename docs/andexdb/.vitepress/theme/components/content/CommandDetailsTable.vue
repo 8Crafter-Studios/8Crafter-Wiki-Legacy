@@ -142,11 +142,17 @@ const props = defineProps<{
     text-align: left !important;
   }
 }
+.image-next-to-command-details-table {
+  width: calc(100% - 305px - 1em);
+}
 @media (max-width: 600px) {
   .command-details-table {
     width: auto;
     margin-left: 0;
     float: none;
+  }
+  .image-next-to-command-details-table {
+    width: auto;
   }
 }
 </style>

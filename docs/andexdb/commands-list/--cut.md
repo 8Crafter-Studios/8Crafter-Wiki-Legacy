@@ -21,7 +21,7 @@ Cuts the selected area to the clipboard (copies and the removes the area).
     ]"
     ultraSecurityModeSecurityLevel="WorldEdit"
     version="3.0.2"
-    :undoSupported="-1"
+    :undoSupported="1"
     :functional="true"
     :deprecated="false"
 />
@@ -31,6 +31,10 @@ Cuts the selected area to the clipboard (copies and the removes the area).
 `\\cut [-meb]`{lang=andexdbcmd}
 
 <indent>Cuts the selected area</indent>
+
+## Arguments
+
+<template-EmptySection />
 
 ## Result
 
