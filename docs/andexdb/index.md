@@ -9,11 +9,11 @@ hide_from_algolia_search: true
 <div class="home">
 <header>
 
-<WikiImage src="/pack_icon.svg" alt="8Crafter's Debug Sticks Wiki Logo" pixelated />
+<WikiImage src="/pack_icon.svg" alt="8Crafter's Server Utilities Wiki Logo" pixelated />
 
-# 8Crafter's Debug Sticks Wiki
+# 8Crafter's Server Utilities & Debug Sticks Wiki
 
-This is the wiki for the Minecraft Bedrock Edition Add-On: [8Crafter's Debug Sticks, Chat Ranks, Custom UI, and JavaScript Commands/Script REPL and Server Utilities](https://modbay.org/mods/1240-8crafters-debug-sticks.html).
+This is the wiki for the Minecraft Bedrock Edition Add-On: [8Crafter's Server Utilities & Debug Sticks](https://modbay.org/mods/1240-8crafters-debug-sticks.html).
 
 </header>
 <CardGrid>

@@ -1,5 +1,5 @@
 {
-  "name": "syntax minecraft commands and 8crafter's debug sticks commands",
+  "name": "syntax minecraft commands and 8crafter's server utilities commands",
   "aliases": ["mccmd", "mccommand"],
   "scopeName": "source.mccommand",
   "uuid": "982bc4cf-ca04-4c62-8c2a-86b3643b2733",

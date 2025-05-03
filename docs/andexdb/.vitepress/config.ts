@@ -76,9 +76,9 @@ await shiki.loadWasm(getDefaultWasmLoader() as any); */
 
 export default Object.assign(
   defineConfigWithTheme<ThemeConfig>({
-    title: "8Crafter's Debug Sticks Wiki (UNDER CONSTRUCTION!)",
+    title: "8Crafter's Server Utilities Wiki",
     description:
-      "The wiki for the Minecraft Bedrock Edition Add-On: 8Crafter's Debug Sticks, Chat Ranks, Custom UI, and JavaScript Commands/Script REPL and Server Utilities.",
+      "The wiki for the Minecraft Bedrock Edition Add-On: 8Crafter's Server Utilities & Debug Sticks.",
     base: "/andexdb/", // Replace with your repository name
 
     head,
@@ -106,7 +106,7 @@ export default Object.assign(
         appId: "97Y3M3Y6BI",
         apiKey: "84dd07d78c878c93eac11f7ed88ad9b8",
         indexName: "andexdb",
-        placeholder: "Search 8Crafter's Debug Sticks Wiki...",
+        placeholder: "Search 8Crafter's Server Utilities Wiki...",
       },
 
       navigation: [

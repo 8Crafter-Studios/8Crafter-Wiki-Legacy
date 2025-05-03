@@ -26,7 +26,7 @@ hide_from_algolia_search: true
 
 <a href="add-ons/add-ons">add-ons/add-ons</a>
 
-<a href="add-ons/debug-sticks">add-ons/debug-sticks</a>
+<a href="add-ons/server-utilities">add-ons/debug-sticks</a>
 
 <a href="add-ons/entity-scale">add-ons/entity-scale</a>
 

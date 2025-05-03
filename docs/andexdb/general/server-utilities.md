@@ -1,29 +1,15 @@
 ---
-title: Debug Sticks
-page_title: 8Crafter's Debug Sticks, Chat Ranks, Custom UI, and JavaScript Commands/Script REPL and Server Utilities
-category: Released
-description: 8Crafter's Debug Sticks, Chat Ranks, Custom UI, and JavaScript Commands/Script REPL and Server Utilities
-tags:
-    - BP
-    - RP
-# nav_order: 2
-add-on_namespace: andexdb
-thumbnail_url: https://wiki.8crafter.com/main/assets/images/add-on_cover_art/andexdb.png
-mentions:
-    - Andexter8
+title: General Information
+page_title: General Information
+description: General information about the add-on.
+nav_order: 1
 ---
 
-<code>namespace: andexdb</code>
-
-<img src="/assets/images/add-on_cover_art/andexdb.png" alt="8Crafter's Debug Sticks Cover Art" title="8Crafter's Debug Sticks Cover Art">
+<img src="/assets/images/add-on_cover_art/andexdb.png" alt="8Crafter's Server Utilities Cover Art" title="8Crafter's Server Utilities Cover Art">
 
 <br>
 
 <Button link="https://modbay.org/mods/1240-8crafters-debug-sticks.html">ModBay</Button>
-<Button link="/andexdb/" target="_self">
-    Full Documentation
-</Button>
-<Button link="/andexdb/changelogs">Changelogs</Button>
 
 This add-on does almost everything. It is one of the most powerful bedrock add-ons that currently exists.
 
@@ -89,10 +75,8 @@ This add-on does almost everything. It is one of the most powerful bedrock add-o
 <style>
     .video-container {
   position: relative;
-  /* padding-bottom: 56.25%; */ /* 16:9 */
-  /* height: 0; */
-  width: 100%;
-  aspect-ratio: 16 / 9;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
 }
 .video-container iframe {
   position: absolute;
@@ -124,6 +108,4 @@ This add-on does almost everything. It is one of the most powerful bedrock add-o
 
 ::: -->
 
-<Button link="/andexdb/" target="_self">
-    Next: 8Crafter's Debug Sticks Wiki
-</Button>
+<Button link="./downloading">Next: Downloading The Add-On</Button>

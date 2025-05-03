@@ -204,7 +204,7 @@ hide_from_algolia_search: true
 
 <a href="entities/tickingarea">entities/tickingarea</a>
 
-<a href="general/debug-sticks">general/debug-sticks</a>
+<a href="general/server-utilities">general/debug-sticks</a>
 
 <a href="general/downloading">general/downloading</a>
 

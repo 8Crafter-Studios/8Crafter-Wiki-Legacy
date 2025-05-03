@@ -1,7 +1,7 @@
 ---
 title: General
 nav_order: 2
-description: General information on 8Crafter's Debug Sticks Add-On.
+description: General information on 8Crafter's Server Utilities Add-On.
 hide_from_algolia_search: true
 ---
 

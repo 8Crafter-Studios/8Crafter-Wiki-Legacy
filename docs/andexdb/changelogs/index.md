@@ -1,7 +1,7 @@
 ---
 title: Changelogs
 nav_order: 1
-description: Changelogs for 8Crafter's Debug Sticks Add-On.
+description: Changelogs for 8Crafter's Server Utilities Add-On.
 categories:
     - title: Releases
       color: green

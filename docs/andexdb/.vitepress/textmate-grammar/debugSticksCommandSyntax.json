@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
   "name": "andexdbcmd",
-  "displayName": "8Crafter's Debug Sticks Command Syntax",
+  "displayName": "8Crafter's Server Utilities Command Syntax",
   "aliases": ["acmd"],
   "scopeName": "source.andexdbcmd",
   "patterns": [

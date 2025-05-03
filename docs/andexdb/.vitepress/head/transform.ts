@@ -6,7 +6,7 @@ export function transformHead({ pageData, siteConfig }: TransformContext) {
 
   const { frontmatter, relativePath } = pageData;
 
-  const title = frontmatter.title ?? "8Crafter's Debug Sticks Wiki";
+  const title = frontmatter.title ?? "8Crafter's Server Utilities Wiki";
   const description = frontmatter.description ?? config.description;
 
   const image = `${config.themeConfig.url}/assets/images/pack_icon.svg`;

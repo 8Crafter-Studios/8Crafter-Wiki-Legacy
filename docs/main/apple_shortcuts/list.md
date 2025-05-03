@@ -10,7 +10,7 @@ nav_order: 2
 
 <!-- <Card title="Debug Sticks" link="./debug-sticks" image="/assets/images/add-on_cover_art/andexdb.png">
 
-8Crafter's Debug Sticks, Chat Ranks, Custom UI, and JavaScript Commands/Script REPL and Server Utilities
+8Crafter's Server Utilities & Debug Sticks
 
 </Card>
 

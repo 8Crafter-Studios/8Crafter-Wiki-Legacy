@@ -5,8 +5,7 @@ const props = defineProps<{
 }>();
 const dependencyNameMap = {
   andexsa: "8Crafter's Entity Scale, NBT, and Behavior Modifier, Bossbar, and Morph Addon",
-  andexdb:
-    "8Crafter's Debug Sticks, Chat Ranks, Custom UI, and JavaScript Commands/Script REPL and Server Utilities",
+  andexdb: "8Crafter's Server Utilities & Debug Sticks",
   bluemods: "BlueMods AntiCheat",
 };
 </script>
