@@ -3,6 +3,7 @@ const props = defineProps<{
   section?: string;
   details?: string;
   exists?: "";
+  version?: string;
 }>();
 </script>
 <template>
@@ -17,8 +18,8 @@ const props = defineProps<{
     :text="
       (props.exists != undefined
         ? 'This content is still under development as a result it may be partially broken, and may be extremely buggy.'
-        : 'This content has appeared in development versions, but the full update containing it has not been released yet.') +
-      (!!props.details ? '\n\n**Info:** *' + props.details + '*' : '')
+        : `This content has appeared in ${props.version ? props.version + ' ' : ''}development versions, but the full update containing it has not been released yet.`) +
+      (props.details ? '\n\n**Info:** *' + props.details + '*' : '')
     "
     image="/assets/images/icons/Crafting_Table_JE4_BE3.png"
     class="msgbox-blue"

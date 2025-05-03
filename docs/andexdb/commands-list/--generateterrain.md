@@ -9,9 +9,11 @@ mentions:
     - Andexter8
 ---
 
-<template-Planned version="v1.35.0" />
+<template-InDevelopment version="v1.35.0" />
 
 Generates terrain in the selected area.
+
+Note: This command currently only supports terrain, ores, and blobs, it does not support foliage or structure generation yet.
 
 <CommandDetailsTable
     name="\\generateterrain"
@@ -59,6 +61,21 @@ Here are what each of the flags do:
 The biome to use for the terrain generation.
 
 If an unspported biome is provided, an error with the list of supported biomes will be thrown.
+
+If the biome has not had its block type data added to the getBlockTypeV2 function (which is the case for many biomes currently), the whole biome will generate using [`andexdb:invalid_block_placeholder`](../blocks/invalid-block-placeholder) blocks.
+
+Current list of fully supported biomes as of `v1.35.0`:
+
+-   `minecraft:plains`{lang=mccmd}
+-   `minecraft:forest`{lang=mccmd}
+-   `minecraft:forest_hills`{lang=mccmd}
+-   `minecraft:flower_forest`{lang=mccmd}
+-   `minecraft:sunflower_plains`{lang=mccmd}
+-   `minecraft:river`{lang=mccmd}
+-   `minecraft:frozen_peaks`{lang=mccmd}
+-   `minecraft:hell`{lang=mccmd}
+-   `minecraft:the_end`{lang=mccmd}
+-   `andexdb:test_1`{lang=mccmd}
 
 </indent>
 
@@ -250,6 +267,15 @@ Any
     </tbody>
 
 </table>
+
+## Examples
+
+-   To generate a plains biome with the seed 3271236.3451132, display debug statistics, and generate ores and blobs:
+    -   `\\generateterrain -bod minecraft:plains seed=3271236.3451132`{lang=mccmd}
+-   To generate a frozen peaks biome with the seed 7, and generate ores and blobs with the `v1` mode:
+    -   `\\generateterrain -ob minecraft:frozen_peaks seed=7 oreGenerationMode=v1`{lang=mccmd}
+-   To generate a plains biome with the seed 0.5 and a water level of y=134:
+    -   `\\generateterrain minecraft:plains seed=0.5 waterLevel=134`{lang=mccmd}
 
 ## History
 

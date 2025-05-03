@@ -42,7 +42,7 @@ These images are from [`v1.35.0`](../changelogs/v1.35.0).
 
 ### Default Min MS Between Tick Waits
 
-<template-Planned section="section" version="v1.35.0" />
+<template-InDevelopment section="section" version="v1.35.0" />
 
 The default minimum time between tick waits, in milliseconds.
 
@@ -82,7 +82,7 @@ Config: [`config.system.protectedAreasRefreshRate`{lang=ts}](https://api.8crafte
 
 ### Protected Areas Zone Actions Enabled
 
-<template-Planned section="section" version="v1.35.0" />
+<template-InDevelopment section="section" version="v1.35.0" />
 
 Whether to enable zone actions for protected areas.
 
@@ -92,7 +92,7 @@ Config: [`config.system.protectedAreasZoneActionsEnabled`{lang=ts}](https://api.
 
 ### Protected Areas Zone Actions Interval
 
-<template-Planned section="section" version="v1.35.0" />
+<template-InDevelopment section="section" version="v1.35.0" />
 
 How often in ticks to execute the zone actions.
 
@@ -108,7 +108,7 @@ Config: [`config.system.protectedAreasZoneActionsInterval`{lang=ts}](https://api
 
 ### Protected Areas Zone Refresh Interval
 
-<template-Planned section="section" version="v1.35.0" />
+<template-InDevelopment section="section" version="v1.35.0" />
 
 How often in milliseconds to refresh the list of protected areas zones with zone actions.
 
@@ -156,7 +156,7 @@ Config: [`config.system.showEntityScaleFoundChatLog`{lang=ts}](https://api.8craf
 
 ### Show BlueMods Anticheat Not Found Console Log
 
-<template-Planned section="section" version="v1.35.0" />
+<template-InDevelopment section="section" version="v1.35.0" />
 
 Whether or not to log to the console when the add-on fails to find a compatible version of [BlueMods Anticheat](/../main/add-ons/bluemods-anticheat) active on startup.
 
@@ -166,7 +166,7 @@ Config: [`config.system.showBlueModsAnticheatNotFoundConsoleLog`{lang=ts}](https
 
 ### Show BlueMods Anticheat Found Console Log
 
-<template-Planned section="section" version="v1.35.0" />
+<template-InDevelopment section="section" version="v1.35.0" />
 
 Whether or not to log to the console when the add-on sucessfully finds a compatible version of [BlueMods Anticheat](/../main/add-ons/bluemods-anticheat) active on startup.
 
@@ -176,7 +176,7 @@ Config: [`config.system.showBlueModsAnticheatFoundConsoleLog`{lang=ts}](https://
 
 ### Show BlueMods Anticheat Not Found Chat Log
 
-<template-Planned section="section" version="v1.35.0" />
+<template-InDevelopment section="section" version="v1.35.0" />
 
 Whether or not to log to the chat when the add-on fails to find a compatible version of [BlueMods Anticheat](/../main/add-ons/bluemods-anticheat) active on startup.
 
@@ -186,7 +186,7 @@ Config: [`config.system.showBlueModsAnticheatNotFoundChatLog`{lang=ts}](https://
 
 ### Show BlueMods Anticheat Found Chat Log
 
-<template-Planned section="section" version="v1.35.0" />
+<template-InDevelopment section="section" version="v1.35.0" />
 
 Whether or not to log to the chat when the add-on sucessfully finds a compatible version of [BlueMods Anticheat](/../main/add-ons/bluemods-anticheat) active on startup.
 

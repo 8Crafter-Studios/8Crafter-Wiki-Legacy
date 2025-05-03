@@ -9,7 +9,7 @@ mentions:
     - Andexter8
 ---
 
-<template-Planned version="v1.35.0" />
+<template-InDevelopment version="v1.35.0" />
 
 Loads the chunks in the selected area by spawning [`andexdb:tickingarea_6`{lang=mccmd}](../entities/tickingarea_6), may also load surrounding chunks.
 

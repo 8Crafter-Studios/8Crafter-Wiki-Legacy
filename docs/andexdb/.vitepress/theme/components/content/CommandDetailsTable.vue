@@ -141,6 +141,9 @@ const props = defineProps<{
     border: none;
     text-align: left !important;
   }
+  & > table > tbody > tr > td > * {
+    overflow-wrap: anywhere;
+  }
 }
 .image-next-to-command-details-table {
   width: calc(100% - 305px - 1em);

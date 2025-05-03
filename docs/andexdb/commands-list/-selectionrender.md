@@ -44,7 +44,7 @@ It uses the pos1 particles for parts of the selection that are closer to the pos
 
 ## Arguments
 
-<template-Planned section="section" version="v1.35.0" />
+<template-InDevelopment section="section" version="v1.35.0" />
 
 `[duration: float[?=10]]`{lang=andexdbcmd}: [float](../commands/parameter-types#float)
 

@@ -5,6 +5,7 @@ import { Component } from "vue";
 
 import Layout from "./components/Layout.vue";
 
+import BlockDetailsTable from "./components/content/BlockDetailsTable.vue";
 import Button from "./components/content/Button.vue";
 import Card from "./components/content/Card.vue";
 import CardGrid from "./components/content/CardGrid.vue";
@@ -40,6 +41,7 @@ import template_WorkInProgress from "./components/content/template-WorkInProgres
 import msgbox from "./components/content/msgbox.vue";
 
 const contentComponents: Record<string, Component> = {
+  BlockDetailsTable,
   Button,
   Card,
   CardGrid,

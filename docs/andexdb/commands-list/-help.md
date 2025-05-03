@@ -660,5 +660,37 @@ Fixed an issue where when you used the `\help cmd`{lang=acmd} sub-command or one
 
 </td>
         </tr>
+        <tr class="collapsible collapsible-rows">
+            <th colspan="8" style="border-bottom: none">
+                <!-- <a href="/w/Pocket_Edition_Alpha" title="Pocket Edition Alpha"> -->
+                    Upcoming Server Utilities
+                <!-- </a> -->
+            </th>
+        </tr>
+        <tr class="collapsible-row">
+            <th class="nowrap" rowspan="1" colspan="1">
+                <a href="/changelogs/v1.35.0" title="Server Utilities v1.35.0">
+                    v1.35.0
+                </a>
+            </th>
+            <th colspan="4" rowspan="1">
+                <a
+                    href="/changelogs/v1.35.0"
+                    title="Server Utilities v1.35.0"
+                >
+                    release
+                </a>
+                <a
+                    href="https://github.com/8Crafter-Studios/8Crafter-s-Debug-Sticks-BP-Development/commit/"
+                    title="Debug Sticks v1.35.0-preview.20+BULID.4 (Commit 4da7a07768d1f5a67ff18415417e7817ab75b699)"
+                    class="minetip scicon"
+                ></a>
+            </th>
+            <td>
+
+The `\help`{lang=acmd} command now displays the URL of the page on the wiki for the command when getting the help for a built-in command.
+
+</td>
+        </tr>
     </tbody>
 </table>

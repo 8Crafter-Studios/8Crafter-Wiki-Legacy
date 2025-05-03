@@ -270,7 +270,7 @@ hide_from_algolia_search: true
 
 <a href="settings/chat-ranks">settings/chat-ranks</a>
 
-<a href="settings/eval-auto-execute">settings/eval-auto-execute</a>
+<a href="settings/advanced/eval-auto-execute">settings/eval-auto-execute</a>
 
 <a href="settings/extra-features">settings/extra-features</a>
 

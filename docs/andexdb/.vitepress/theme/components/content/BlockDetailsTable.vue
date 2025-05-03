@@ -1,15 +1,22 @@
 <script setup lang="ts">
+import * as md from "markdown-it";
 const props = defineProps<{
   name: string;
   image?: string | string[];
   altText?: string | string[];
   minetip?: string;
-  itemID?: string | string[];
+  blockID?: string | string[];
   rarity?: string;
-  durability?: string;
   renewable?: string;
   stackable?: string;
-  dyeable?: string;
+  blastResistance?: string;
+  hardness?: string;
+  luminous?: string;
+  transparent?: string;
+  waterloggable?: string;
+  flammable?: string;
+  catchesFireFromLava?: string;
+  mapColor?: string;
   invslotItems?: { minetip: string; image?: string; altText?: string }[];
   tabberEnabled?: boolean | "true" | "false" | 0 | 1;
   tabberItems?: { tabberTitle: string; images?: { image: string; altText?: string }[] }[];
@@ -55,8 +62,8 @@ const tabberItemsList =
 </script>
 
 <template>
-  <div class="item-details-table">
-    <div class="item-details-table-header">
+  <div class="command-details-table">
+    <div class="command-details-table-header">
       {{ props.name }}
     </div>
     <div class="infobox-imagearea animated-container">
@@ -134,44 +141,93 @@ const tabberItemsList =
     </div>
     <table cellspacing="1" cellpadding="4">
       <tbody>
-        <tr v-if="!!props.itemID">
-          <th title="The namespaced ID of the item.">Item ID:</th>
+        <tr v-if="!!props.blockID">
+          <th title="The namespaced ID of the block.">Block ID</th>
           <td>
             <code
-              v-for="(entry, i) in typeof props.itemID === 'string' ? [props.itemID] : props.itemID"
+              v-for="(entry, i) in typeof props.blockID === 'string'
+                ? [props.blockID]
+                : props.blockID"
               :key="i"
               >{{ entry }}<br
             /></code>
           </td>
         </tr>
         <tr v-if="!!props.rarity">
-          <th title="The rarity tier of the item.">Rarity tier:</th>
+          <th title="The rarity tier of the block.">
+            <a href="https://minecraft.wiki/w/Rarity" target="_blank">Rarity tier</a>
+          </th>
           <td>
             {{ props.rarity }}
           </td>
         </tr>
-        <tr v-if="!!props.durability">
-          <th title="The maximum durability of the item.">Durability:</th>
-          <td>
-            {{ props.durability }}
-          </td>
-        </tr>
         <tr v-if="!!props.renewable">
-          <th title="Whether or not the item is renewable.">Renewable:</th>
+          <th title="Whether or not the block is renewable.">
+            <a href="https://minecraft.wiki/w/Renewable_resource" target="_blank">Renewable</a>
+          </th>
           <td>
             {{ props.renewable }}
           </td>
         </tr>
         <tr v-if="!!props.stackable">
-          <th title="Whether or not the item is stackable.">Stackable:</th>
+          <th title="Whether or not the block is stackable.">Stackable</th>
           <td>
             {{ props.stackable }}
           </td>
         </tr>
-        <tr v-if="!!props.dyeable">
-          <th title="Whether or not the item can be dyed.">Dyeable:</th>
+        <tr v-if="!!props.blastResistance">
+          <th title="The block's blast resistance.">
+            <a href="https://minecraft.wiki/w/Explosion#Blast_resistance" target="_blank">
+              Blast resistance
+            </a>
+          </th>
           <td>
-            {{ props.dyeable }}
+            {{ props.blastResistance }}
+          </td>
+        </tr>
+        <tr v-if="!!props.hardness">
+          <th title="The block's hardness.">
+            <a href="https://minecraft.wiki/w/Breaking#Blocks_by_hardness" target="_blank">
+              Hardness
+            </a>
+          </th>
+          <td>
+            {{ props.hardness }}
+          </td>
+        </tr>
+        <!-- eslint-disable vue/no-v-html -->
+        <tr v-if="!!props.luminous">
+          <th title="Whether or not the block emits light.">
+            <a href="https://minecraft.wiki/w/Light" target="_blank">Luminous</a>
+          </th>
+          <td v-html="md.default().render(props.luminous)"></td>
+        </tr>
+        <tr v-if="!!props.transparent">
+          <th title="Whether or not the block is transparent.">
+            <a href="https://minecraft.wiki/w/Opacity" target="_blank">Transparent</a>
+          </th>
+          <td v-html="md.default().render(props.transparent)"></td>
+        </tr>
+        <tr v-if="!!props.waterloggable">
+          <th title="Whether or not the block is waterloggable.">
+            <a href="https://minecraft.wiki/w/Waterlogging" target="_blank">Waterloggable</a>
+          </th>
+          <td v-html="md.default().render(props.waterloggable)"></td>
+        </tr>
+        <tr v-if="!!props.flammable">
+          <th title="Whether or not the block is flammable.">
+            <a href="https://minecraft.wiki/w/Flammable" target="_blank">Flammable</a>
+          </th>
+          <td>
+            {{ props.flammable }}
+          </td>
+        </tr>
+        <tr v-if="!!props.catchesFireFromLava">
+          <th title="Whether or not the block catches fire from lava.">
+            Catches fire from <a href="https://minecraft.wiki/w/Lava" target="_blank">lava</a>
+          </th>
+          <td>
+            {{ props.catchesFireFromLava }}
           </td>
         </tr>
       </tbody>
@@ -180,7 +236,7 @@ const tabberItemsList =
 </template>
 
 <style lang="scss">
-.item-details-table {
+.command-details-table {
   border: 1px solid #0e6a3b !important;
   position: relative;
   clear: right;
@@ -202,7 +258,7 @@ const tabberItemsList =
       border-top: var(--border);
     }
   }
-  & > .item-details-table-header {
+  & > .command-details-table-header {
     color: #fff;
     font-size: 120%;
     padding: 5px;
@@ -229,7 +285,7 @@ const tabberItemsList =
   }
 }
 @media (max-width: 600px) {
-  .item-details-table {
+  .command-details-table {
     width: auto;
     margin-left: 0;
     float: none;
