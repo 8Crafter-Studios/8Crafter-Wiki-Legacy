@@ -1,7 +1,10 @@
 :root {
   --bg-color: rgb(243, 243, 243);
+  --bg-left-border-color: #171717;
+  --bg-image: url(/andexdb/assets/images/calcite_bg.png);
+  --base-background-color: rgb(240, 245, 244);
   --light-bg-color: rgb(251, 251, 251);
-  --nav-bg-color: rgba(252, 252, 252, 0.8);
+  --nav-bg-color: rgba(252, 252, 252, 0 /* 0.8 */);
   --nav-bg-blur: blur(16px);
 
   --sidebar-visibility-transition-duration: 0.2s;
@@ -24,8 +27,10 @@
 
 .dark {
   --bg-color: rgb(25, 25, 28);
+  --bg-image: url(/andexdb/assets/images/blackstone_bg.png);
+  --base-background-color: rgb(39, 34, 28);
   --light-bg-color: rgb(30, 30, 33);
-  --nav-bg-color: rgb(31, 31, 34, 0.8);
+  --nav-bg-color: rgb(31, 31, 34, 0 /* 0.8 */);
   --border-color: #2e2e32;
 
   color: #fff;
@@ -39,7 +44,7 @@
 .blue_dark {
   --bg-color: rgb(0, 61, 110);
   --light-bg-color: rgb(0, 66, 115);
-  --nav-bg-color: rgb(0, 67, 116, 0.8);
+  --nav-bg-color: rgb(0, 67, 116, 0 /* 0.8 */);
   --border-color: rgb(0, 82, 132);
 
   color: #87ceeb;
@@ -56,6 +61,8 @@
 
 :root {
   background-color: var(--bg-color);
+  // background-image: var(--bg-image);
+  // background-repeat: repeat;
   scrollbar-color: var(--border-color) transparent;
 
   -webkit-text-size-adjust: 100%;

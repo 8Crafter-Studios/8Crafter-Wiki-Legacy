@@ -10,6 +10,7 @@
 @use "infobox";
 @use "invslot";
 @use "lists";
+@use "mcForms";
 @use "minetip";
 @use "msgbox";
 @use "table";
@@ -28,6 +29,7 @@ h1 {
 
 article {
   padding-inline: 2em;
+  background-color: var(--bg-color);
 
   p,
   h1,

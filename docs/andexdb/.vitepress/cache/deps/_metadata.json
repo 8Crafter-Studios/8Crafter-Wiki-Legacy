@@ -1,43 +1,49 @@
 {
-  "hash": "fc17c00f",
+  "hash": "b7c5b0dc",
   "configHash": "34776ce8",
-  "lockfileHash": "5253dbae",
-  "browserHash": "1a74cdfe",
+  "lockfileHash": "7b47ef29",
+  "browserHash": "fc8c0aa6",
   "optimized": {
     "vue": {
       "src": "../../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "975592d1",
+      "fileHash": "acceac9f",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "bf5b4b72",
+      "fileHash": "8016fe73",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../../node_modules/vitepress/node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "9e3d7b0b",
+      "fileHash": "91c6c3d4",
       "needsInterop": false
     },
     "molang": {
       "src": "../../../../../node_modules/molang/dist/molang.esm.js",
       "file": "molang.js",
-      "fileHash": "2a7c3029",
+      "fileHash": "24457071",
       "needsInterop": false
     },
     "@vueuse/core": {
       "src": "../../../../../node_modules/@vueuse/core/index.mjs",
       "file": "@vueuse_core.js",
-      "fileHash": "6ae4b60c",
+      "fileHash": "05b0a39d",
       "needsInterop": false
     },
     "markdown-it": {
       "src": "../../../../../node_modules/markdown-it/index.mjs",
       "file": "markdown-it.js",
-      "fileHash": "7c32010a",
+      "fileHash": "f1d69906",
+      "needsInterop": false
+    },
+    "overlayscrollbars-vue": {
+      "src": "../../../../../node_modules/overlayscrollbars-vue/overlayscrollbars-vue.mjs",
+      "file": "overlayscrollbars-vue.js",
+      "fileHash": "6261061d",
       "needsInterop": false
     }
   },

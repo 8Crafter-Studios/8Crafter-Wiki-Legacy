@@ -1,11 +1,11 @@
 <template>
-  <div id="docsearch" class="algolia-search-box" />
+  <div id="docsearch" class="algolia-search-box"></div>
 </template>
 
 <script setup lang="ts">
-console.log(1);
 import { useRoute, useRouter } from "vitepress";
 import { onMounted, watch } from "vue";
+import { OverlayScrollbarsComponent } from "overlayscrollbars-vue";
 
 import docsearch from "@docsearch/js";
 import "@docsearch/css/dist/style.css";
@@ -150,8 +150,8 @@ function initialize(userOptions: any) {
   --docsearch-key-shadow: none;
 
   /* footer */
-  --docsearch-footer-background: var(--light-bg-color);
-  --docsearch-footer-shadow: inset 0 1px 0 var(--border-color);
+  --docsearch-footer-background: none /* var(--light-bg-color) */;
+  --docsearch-footer-shadow: none /* inset 0 1px 0 var(--border-color) */;
 }
 
 /* Darkmode */
@@ -160,23 +160,53 @@ function initialize(userOptions: any) {
   --docsearch-logo-color: rgb(255, 255, 255);
 }
 .DocSearch-Modal {
-  border-radius: var(--border-radius);
-  border: var(--border);
+  border-image: url("/andexdb/assets/images/backgrounds/dialog_background_hollow_2.png") 23 8 42 8 /
+    23px 8px 42px 8px;
+  background-color: #0000;
+  image-rendering: pixelated;
+  padding-top: 15px;
+  // border-radius: var(--border-radius);
+  // border: var(--border);
 }
 .DocSearch-Form {
   border-radius: var(--border-radius);
   border: var(--border);
 }
 .DocSearch-Button {
-  border-radius: var(--border-radius);
-  border: var(--border);
   margin: 0;
 
   .DocSearch-Button-Keys {
     display: none;
   }
 }
+
+.DocSearch-Button,
+.DocSearch-Form {
+  font-family: Mojangles;
+  // border-radius: var(--border-radius);
+  // border: var(--border);
+  min-height: 34px;
+  padding: 6px 8px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  vertical-align: middle; /*
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: right 8px center;*/ /*
+  border: 1px solid #d1d5da;*/ /*
+  border-radius: 3px;
+  outline: none;*/ /*
+  box-shadow: inset 0 1px 2px rgba(27, 31, 35, 0.075);*/
+  border-image: url("/assets/images/ui/textboxes/edit_box_indent.png") 2 1 2 1 fill / 4px 2px 4px
+    2px;
+  padding: 4px 5px 4px 5px;
+  image-rendering: pixelated;
+}
+
 .DocSearch-Button-Placeholder {
+  color: white;
+  opacity: 0.5;
   &::after {
     content: "...";
   }
@@ -184,5 +214,19 @@ function initialize(userOptions: any) {
 .DocSearch-Button-Key {
   padding: 0;
   margin: 0;
+}
+.DocSearch-Search-Icon {
+  background-image: url("/assets/images/icons/magnifyingGlass.png");
+  background-repeat: no-repeat;
+  // image-rendering: pixelated;
+  background-size: cover;
+  & > path {
+    display: none;
+  }
+}
+
+.DocSearch-Label,
+.DocSearch-Commands-Key {
+  color: black;
 }
 </style>
