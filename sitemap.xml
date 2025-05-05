@@ -29,10 +29,6 @@
     <lastmod>2025-05-03</lastmod>
   </url>
   <url>
-    <loc>https://wiki.8crafter.com/main/add-ons/debug-sticks</loc>
-    <lastmod>2025-05-03</lastmod>
-  </url>
-  <url>
     <loc>https://wiki.8crafter.com/main/add-ons/entity-scale</loc>
     <lastmod>2025-05-03</lastmod>
   </url>
@@ -46,6 +42,10 @@
   </url>
   <url>
     <loc>https://wiki.8crafter.com/main/add-ons/secret-items-loader</loc>
+    <lastmod>2025-05-03</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/main/add-ons/server-utilities</loc>
     <lastmod>2025-05-03</lastmod>
   </url>
   <url>
@@ -301,7 +301,11 @@
     <lastmod>2025-05-03</lastmod>
   </url>
   <url>
-    <loc>https://wiki.8crafter.com/andexdb/general/debug-sticks</loc>
+    <loc>https://wiki.8crafter.com/andexdb/changelogs/v1.35.0-rc.1</loc>
+    <lastmod>2025-05-03</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/general/server-utilities</loc>
     <lastmod>2025-05-03</lastmod>
   </url>
   <url>
@@ -1026,170 +1030,166 @@
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/commands-list/-tpa.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/commands-list/--protectarea.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/commands-list/-selectionrender.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/blocks/invalid-block-placeholder.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/commands-list/--loadchunks.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/commands-list/-tpaccept.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/commands-list/-tpdeny.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/commands-list/-gmg.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/commands-list/--expandselection.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/commands-list/--generateterrain.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/commands-list/--remove.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/settings/script.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/main/add-ons/bluemods-anticheat.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/commands-list/-gmr.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/commands-list/-help.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/settings/module-imports.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/settings/advanced/eval-auto-execute.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/commands-list/--regenerateblocks.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/commands-list/--chunk.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/entities/tickingarea_6.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/main/add-ons/entity-scale.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/settings/ui.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/settings/advanced/manage-event-subscriptions.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/commands-list/--replace.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/commands/parameter-types.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/commands-list/-binvsee.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/commands-list/-mainmenu.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/commands-list/--cut.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/commands-list/--copy.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/commands-list/--paste.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/commands/commands-parameters-basics.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/items/selection-tool.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/items/main-menu.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/settings/chat-ranks.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/systems/tpa_%28Pre_1.35.0%29.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/settings/tpa-system.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/changelogs/v1.35.0.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/settings/general.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/systems/tpa_%28Pre_1.33.0%29.html</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/changelogs/</loc>
-    <lastmod>2025-05-03</lastmod>
+    <lastmod>2025-05-05</lastmod>
   </url>
   <url>
-    <loc>https://wiki.8crafter.com/andexdb/changelogs/v1.35.0-rc.1</loc>
-    <lastmod>2025-05-03</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/andexdb/general/server-utilities</loc>
-    <lastmod>2025-05-03</lastmod>
+    <loc>https://wiki.8crafter.com/andexdb/changelogs/v1.35.0-rc.2</loc>
+    <lastmod>2025-05-05</lastmod>
   </url>
 </urlset>
