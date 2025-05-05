@@ -143,10 +143,10 @@ Added the `c` flag to the `\\remove`{lang=acmd} command. This flag cuases the co
             </th>
             <th colspan="4" rowspan="1">
                 <a
-                    href="/changelogs/v1.35.0"
-                    title="Server Utilities v1.35.0"
+                    href="/changelogs/v1.35.0-rc.1"
+                    title="Server Utilities v1.35.0-RC.1"
                 >
-                    release
+                    RC1
                 </a>
                 <a
                     href="https://github.com/8Crafter-Studios/8Crafter-s-Debug-Sticks-BP-Development/commit/83e3cd7265503a89e24987d366ef383c60151c5c"

@@ -113,10 +113,10 @@ Any
             </th>
             <th colspan="4" rowspan="1">
                 <a
-                    href="/changelogs/v1.35.0"
-                    title="Server Utilities v1.35.0"
+                    href="/changelogs/v1.35.0-rc.1"
+                    title="Server Utilities v1.35.0-RC.1"
                 >
-                    release
+                    RC1
                 </a>
                 <a
                     href="https://github.com/8Crafter-Studios/8Crafter-s-Debug-Sticks-BP-Development/commit/09cce16a7ea6fb605dcd0c6543bdc98ab7cf9e0c"
