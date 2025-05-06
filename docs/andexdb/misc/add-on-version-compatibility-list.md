@@ -143,10 +143,20 @@ Compatible Add-On Versions:
 
 </Spoiler>
 
-<Spoiler title="1.21.70/71">
+<Spoiler title="1.21.70/71/72">
 
 Compatible Add-On Versions:
 
 -   `v1.34.0`
+-   `v1.34.1`
+-   `v1.35.0`
+
+</Spoiler>
+
+<Spoiler title="1.21.80">
+
+Compatible Add-On Versions:
+
+-   `v1.36.0`
 
 </Spoiler>
