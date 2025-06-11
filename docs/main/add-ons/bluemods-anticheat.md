@@ -2,7 +2,7 @@
 title: BlueMods Anticheat
 page_title: BlueMods Anticheat
 category: Released
-description: BlueMods Anticheat
+description: BlueMods AntiCheat for Minecraft Bedrock is a powerful tool designed to protect your server from hackers and cheaters.
 tags:
     - BP
     - RP
