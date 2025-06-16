@@ -76,9 +76,9 @@ await shiki.loadWasm(getDefaultWasmLoader() as any); */
 
 export default Object.assign(
   defineConfigWithTheme<ThemeConfig>({
-    title: "8Crafter's Server Utilities Wiki",
+    title: "Legacy 8Crafter's Server Utilities Wiki",
     description:
-      "The wiki for the Minecraft Bedrock Edition Add-On: 8Crafter's Server Utilities & Debug Sticks.",
+      "The legacy version of the wiki for the Minecraft Bedrock Edition Add-On: 8Crafter's Server Utilities & Debug Sticks.",
     base: "/andexdb/", // Replace with your repository name
 
     head,
@@ -97,16 +97,16 @@ export default Object.assign(
   }, */,
 
     themeConfig: {
-      url: "https://wiki.8crafter.com/andexdb",
-      repository: "https://github.com/8Crafter-Studios/8Crafter-Wiki",
+      url: "https://legacy.wiki.8crafter.com/andexdb",
+      repository: "https://github.com/8Crafter-Studios/8Crafter-Wiki-Legacy",
       repository_edit_link_base:
-        "https://github.com/8Crafter-Studios/8Crafter-Wiki/blob/wiki/docs/andexdb/", // Replace with your repository name
+        "https://github.com/8Crafter-Studios/8Crafter-Wiki-Legacy/blob/wiki/docs/andexdb/", // Replace with your repository name
 
       algolia: {
         appId: "97Y3M3Y6BI",
         apiKey: "84dd07d78c878c93eac11f7ed88ad9b8",
         indexName: "andexdb",
-        placeholder: "Search 8Crafter's Server Utilities Wiki...",
+        placeholder: "Search Legacy 8Crafter's Server Utilities Wiki...",
       },
 
       navigation: [
