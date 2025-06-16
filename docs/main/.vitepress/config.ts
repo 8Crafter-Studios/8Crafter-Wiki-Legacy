@@ -60,8 +60,8 @@ if (isFastBuild) {
 }
 
 export default defineConfigWithTheme<ThemeConfig>({
-  title: "8Crafter Wiki (UNDER CONSTRUCTION!)",
-  description: "The wiki for the Minecraft YouTuber and Add-On Creator 8Crafter.",
+  title: "Legacy 8Crafter Wiki",
+  description: "The legacy version of the wiki for the Minecraft YouTuber and Add-On Creator 8Crafter.",
   base: "/main/", // Replace with your repository name
 
   head,
@@ -73,16 +73,16 @@ export default defineConfigWithTheme<ThemeConfig>({
   ignoreDeadLinks: true,
 
   themeConfig: {
-    url: "https://wiki.8crafter.com/main",
-    repository: "https://github.com/8Crafter-Studios/8Crafter-Wiki",
+    url: "https://legacy.wiki.8crafter.com/main",
+    repository: "https://github.com/8Crafter-Studios/8Crafter-Wiki-Legacy",
     repository_edit_link_base:
-      "https://github.com/8Crafter-Studios/8Crafter-Wiki/blob/wiki/docs/main/",
+      "https://github.com/8Crafter-Studios/8Crafter-Wiki-Legacy/blob/wiki/docs/main/",
 
     algolia: {
       appId: "97Y3M3Y6BI",
       apiKey: "84dd07d78c878c93eac11f7ed88ad9b8",
       indexName: "main",
-      placeholder: "Search 8Crafter Wiki...",
+      placeholder: "Search Legacy 8Crafter Wiki...",
     },
 
     navigation: [
